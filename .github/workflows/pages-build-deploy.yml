@@ -23,6 +23,8 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Build (no-op; static site)
         run: echo "Static site; no build step."
