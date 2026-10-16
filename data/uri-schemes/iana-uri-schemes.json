@@ -1,0 +1,5646 @@
+{
+  "source": "https://www.iana.org/assignments/uri-schemes/",
+  "registry_id": "uri-schemes-1",
+  "standard": "RFC 3986 / RFC 7595",
+  "snapshot_date": "2026-10-16",
+  "count": 451,
+  "status_counts": {
+    "Permanent": 99,
+    "Provisional": 334,
+    "Historical": 18
+  },
+  "records": [
+    {
+      "name": "aaa",
+      "description": "Diameter Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6733"
+        }
+      ]
+    },
+    {
+      "name": "aaas",
+      "description": "Diameter Protocol with Secure Transport",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6733"
+        }
+      ]
+    },
+    {
+      "name": "about",
+      "description": "about",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6694"
+        }
+      ]
+    },
+    {
+      "name": "acap",
+      "description": "application configuration access protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2244"
+        }
+      ]
+    },
+    {
+      "name": "acct",
+      "description": "acct",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7565"
+        }
+      ]
+    },
+    {
+      "name": "acd",
+      "description": "acd",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Michael_Hedenus"
+        }
+      ]
+    },
+    {
+      "name": "ace",
+      "description": "ace",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Frank_Bryan"
+        }
+      ]
+    },
+    {
+      "name": "aceap",
+      "description": "aceap",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Frank_Bryan"
+        }
+      ]
+    },
+    {
+      "name": "acedp",
+      "description": "acedp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Frank_Bryan"
+        }
+      ]
+    },
+    {
+      "name": "aceep",
+      "description": "aceep",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Frank_Bryan"
+        }
+      ]
+    },
+    {
+      "name": "acelp",
+      "description": "acelp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Frank_Bryan"
+        }
+      ]
+    },
+    {
+      "name": "aceup",
+      "description": "aceup",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Frank_Bryan"
+        }
+      ]
+    },
+    {
+      "name": "acr",
+      "description": "acr",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "OMA-OMNA"
+        }
+      ]
+    },
+    {
+      "name": "adiumxtra",
+      "description": "adiumxtra",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "adt",
+      "description": "adt",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "SAP_SE"
+        }
+      ]
+    },
+    {
+      "name": "aet",
+      "description": "aet",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Tad_MacPherson"
+        }
+      ]
+    },
+    {
+      "name": "afp",
+      "description": "afp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "afs",
+      "description": "Andrew File System global file names",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc1738"
+        }
+      ]
+    },
+    {
+      "name": "agtp",
+      "description": "agtp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Chris_Hood"
+        }
+      ]
+    },
+    {
+      "name": "aim",
+      "description": "aim",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "alter",
+      "description": "alter",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-morrison-alter-uri-scheme-03"
+        }
+      ]
+    },
+    {
+      "name": "amss",
+      "description": "amss",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "RadioDNS_Project"
+        }
+      ]
+    },
+    {
+      "name": "android",
+      "description": "android",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Adam_Barth"
+        },
+        {
+          "type": "uri",
+          "data": "https://developer.android.com/guide/topics/manifest/manifest-intro"
+        }
+      ]
+    },
+    {
+      "name": "appdata",
+      "description": "appdata",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "apt",
+      "description": "apt",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "ar",
+      "description": "ar",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Arweave_Team"
+        }
+      ]
+    },
+    {
+      "name": "ari",
+      "description": "ari",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-ietf-dtn-ari-04"
+        }
+      ]
+    },
+    {
+      "name": "ark",
+      "description": "ark",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "ARK_agency"
+        },
+        {
+          "type": "uri",
+          "data": "https://n2t.net/ark:/21206/10015"
+        }
+      ]
+    },
+    {
+      "name": "ars",
+      "description": "ars",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-juwan-ars-uri-00"
+        }
+      ]
+    },
+    {
+      "name": "arv",
+      "description": "arv",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Sander_Saar"
+        }
+      ]
+    },
+    {
+      "name": "at",
+      "description": "at \n      (see ",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Bluesky_PBLLC"
+        },
+        {
+          "type": "person",
+          "data": "Paul_Frazee"
+        }
+      ]
+    },
+    {
+      "name": "attachment",
+      "description": "attachment",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "aw",
+      "description": "aw",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "barion",
+      "description": "barion",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "B\u00edr\u00f3_Tam\u00e1s"
+        }
+      ]
+    },
+    {
+      "name": "bb",
+      "description": "bb",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "IESG"
+        }
+      ]
+    },
+    {
+      "name": "beshare",
+      "description": "beshare",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "bitcoin",
+      "description": "bitcoin",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "bitcoincash",
+      "description": "bitcoincash",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Corentin_Mercier"
+        }
+      ]
+    },
+    {
+      "name": "bl",
+      "description": "bluetooth (shortened)",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Daniel_Cowling"
+        }
+      ]
+    },
+    {
+      "name": "blob",
+      "description": "blob",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "W3C_WebApps_Working_Group"
+        },
+        {
+          "type": "person",
+          "data": "Chris_Rebert"
+        }
+      ]
+    },
+    {
+      "name": "bluetooth",
+      "description": "bluetooth",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Daniel_Cowling"
+        }
+      ]
+    },
+    {
+      "name": "bolo",
+      "description": "bolo",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "brid",
+      "description": "brid",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "J\u00fcrgen_Grupp"
+        },
+        {
+          "type": "person",
+          "data": "Michael_Ranft"
+        },
+        {
+          "type": "person",
+          "data": "Sophie_Schenkel"
+        }
+      ]
+    },
+    {
+      "name": "browserext",
+      "description": "browserext",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Mike_Pietraszak"
+        }
+      ]
+    },
+    {
+      "name": "cabal",
+      "description": "cabal",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Fr\u00e9d\u00e9ric_Wang"
+        },
+        {
+          "type": "person",
+          "data": "Cabal_Club"
+        }
+      ]
+    },
+    {
+      "name": "caip",
+      "description": "caip",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Patrick_Collins"
+        }
+      ]
+    },
+    {
+      "name": "calculator",
+      "description": "calculator",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "callto",
+      "description": "callto",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexey_Melnikov"
+        }
+      ]
+    },
+    {
+      "name": "canactid",
+      "description": "canactid",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-schrock-canonical-action-identifier-05"
+        }
+      ]
+    },
+    {
+      "name": "cap",
+      "description": "Calendar Access Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4324"
+        }
+      ]
+    },
+    {
+      "name": "cast",
+      "description": "cast",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Adam_Barth"
+        },
+        {
+          "type": "uri",
+          "data": "https://developers.google.com/cast/docs/registration"
+        }
+      ]
+    },
+    {
+      "name": "casts",
+      "description": "casts",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Adam_Barth"
+        },
+        {
+          "type": "uri",
+          "data": "https://developers.google.com/cast/docs/registration"
+        }
+      ]
+    },
+    {
+      "name": "chrome",
+      "description": "chrome",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "chrome-extension",
+      "description": "chrome-extension",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "cid",
+      "description": "content identifier",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2392"
+        }
+      ]
+    },
+    {
+      "name": "cm",
+      "description": "cm",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Jan_Zdr\u00e1hal"
+        }
+      ]
+    },
+    {
+      "name": "coap",
+      "description": "coap",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7252"
+        }
+      ]
+    },
+    {
+      "name": "coap+tcp",
+      "description": "coap+tcp \n      (see ",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc8323"
+        }
+      ]
+    },
+    {
+      "name": "coap+ws",
+      "description": "coap+ws \n      (see ",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc8323"
+        }
+      ]
+    },
+    {
+      "name": "coaps",
+      "description": "coaps",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7252"
+        }
+      ]
+    },
+    {
+      "name": "coaps+tcp",
+      "description": "coaps+tcp \n      (see ",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc8323"
+        }
+      ]
+    },
+    {
+      "name": "coaps+ws",
+      "description": "coaps+ws \n      (see ",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc8323"
+        }
+      ]
+    },
+    {
+      "name": "com-eventbrite-attendee",
+      "description": "com-eventbrite-attendee",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Bob_Van_Zant"
+        }
+      ]
+    },
+    {
+      "name": "content",
+      "description": "content",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "content-type",
+      "description": "content-type",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Donald_Eastlake"
+        }
+      ]
+    },
+    {
+      "name": "crid",
+      "description": "TV-Anytime Content Reference Identifier",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4078"
+        }
+      ]
+    },
+    {
+      "name": "cstr",
+      "description": "cstr",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Wang_Shu"
+        }
+      ]
+    },
+    {
+      "name": "cttps",
+      "description": "cttps",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Saso_Ahmed"
+        }
+      ]
+    },
+    {
+      "name": "cvs",
+      "description": "cvs",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "dab",
+      "description": "dab",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "RadioDNS_Project"
+        }
+      ]
+    },
+    {
+      "name": "dat",
+      "description": "dat",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Fr\u00e9d\u00e9ric_Wang"
+        },
+        {
+          "type": "person",
+          "data": "Paul_Frazee"
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "description": "data",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2397"
+        }
+      ]
+    },
+    {
+      "name": "dav",
+      "description": "dav",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4918"
+        }
+      ]
+    },
+    {
+      "name": "dhttp",
+      "description": "dhttp \n      (see ",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Qi_Zhou"
+        }
+      ]
+    },
+    {
+      "name": "diaspora",
+      "description": "diaspora",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dennis_Schubert"
+        }
+      ]
+    },
+    {
+      "name": "dict",
+      "description": "dictionary service protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2229"
+        }
+      ]
+    },
+    {
+      "name": "did",
+      "description": "did",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "W3C_Decentralized_Identifier_Working_Group"
+        },
+        {
+          "type": "person",
+          "data": "Manu_Sporny"
+        },
+        {
+          "type": "person",
+          "data": "Ivan_Herman"
+        }
+      ]
+    },
+    {
+      "name": "dilithium3",
+      "description": "dilithium3",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Juan_Jose_Todoli_de_Torres"
+        }
+      ]
+    },
+    {
+      "name": "dis",
+      "description": "dis",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Christophe_Meessen"
+        }
+      ]
+    },
+    {
+      "name": "dlna-playcontainer",
+      "description": "dlna-playcontainer",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "DLNA"
+        }
+      ]
+    },
+    {
+      "name": "dlna-playsingle",
+      "description": "dlna-playsingle",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "DLNA"
+        }
+      ]
+    },
+    {
+      "name": "dnp",
+      "description": "dnp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Shuai_Wang"
+        }
+      ]
+    },
+    {
+      "name": "dns",
+      "description": "Domain Name System",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4501"
+        }
+      ]
+    },
+    {
+      "name": "dntp",
+      "description": "dntp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Hans-Dieter_A._Hiep"
+        }
+      ]
+    },
+    {
+      "name": "doi",
+      "description": "doi",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "uri",
+          "data": "https://doi.org/10.1000/292"
+        },
+        {
+          "type": "person",
+          "data": "Pierre-Anthony_Lemieux"
+        },
+        {
+          "type": "person",
+          "data": "DOI_Foundation"
+        }
+      ]
+    },
+    {
+      "name": "donau",
+      "description": "donau",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-grothoff-donau-02"
+        }
+      ]
+    },
+    {
+      "name": "dpp",
+      "description": "dpp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Gaurav_Jain"
+        },
+        {
+          "type": "person",
+          "data": "Wi-Fi_Alliance"
+        }
+      ]
+    },
+    {
+      "name": "drm",
+      "description": "drm",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "RadioDNS_Project"
+        }
+      ]
+    },
+    {
+      "name": "drop",
+      "description": "drop",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "IESG"
+        }
+      ]
+    },
+    {
+      "name": "dtmi",
+      "description": "dtmi",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "dtn",
+      "description": "DTNRG research and development",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc9171"
+        }
+      ]
+    },
+    {
+      "name": "dvb",
+      "description": "dvb",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-mcroberts-uri-dvb-09"
+        }
+      ]
+    },
+    {
+      "name": "dvx",
+      "description": "dvx",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Clemens_Bastian"
+        }
+      ]
+    },
+    {
+      "name": "dweb",
+      "description": "dweb",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Fr\u00e9d\u00e9ric_Wang"
+        },
+        {
+          "type": "person",
+          "data": "Protocol_Labs"
+        }
+      ]
+    },
+    {
+      "name": "ed2k",
+      "description": "ed2k",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "eid",
+      "description": "eid",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "eSIM_Group_GSM_Association"
+        }
+      ]
+    },
+    {
+      "name": "elsi",
+      "description": "elsi",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Kimmo_Lindholm"
+        }
+      ]
+    },
+    {
+      "name": "embedded",
+      "description": "embedded",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Peter_Hoddie"
+        }
+      ]
+    },
+    {
+      "name": "ens",
+      "description": "ens",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Ricky_Bloomfield"
+        },
+        {
+          "type": "person",
+          "data": "Bradley_Nelson"
+        }
+      ]
+    },
+    {
+      "name": "esim",
+      "description": "esim",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "eSIM_Group_GSM_Association"
+        }
+      ]
+    },
+    {
+      "name": "ethereum",
+      "description": "ethereum",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Fr\u00e9d\u00e9ric_Wang"
+        },
+        {
+          "type": "person",
+          "data": "ligi"
+        }
+      ]
+    },
+    {
+      "name": "example",
+      "description": "example",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7595"
+        }
+      ]
+    },
+    {
+      "name": "ez",
+      "description": "ez",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Roy_Fang"
+        }
+      ]
+    },
+    {
+      "name": "facetime",
+      "description": "facetime",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "fax",
+      "description": "fax",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2806"
+        },
+        {
+          "type": "rfc",
+          "data": "rfc3966"
+        }
+      ]
+    },
+    {
+      "name": "feed",
+      "description": "feed",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "feedready",
+      "description": "feedready",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Mirko_Nosenzo"
+        }
+      ]
+    },
+    {
+      "name": "fido",
+      "description": "fido",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Adam_Langley"
+        }
+      ]
+    },
+    {
+      "name": "file",
+      "description": "Host-specific file names",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc8089"
+        }
+      ]
+    },
+    {
+      "name": "filesystem",
+      "description": "filesystem",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "W3C_WebApps_Working_Group"
+        },
+        {
+          "type": "person",
+          "data": "Chris_Rebert"
+        }
+      ]
+    },
+    {
+      "name": "finger",
+      "description": "finger",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "first-run-pen-experience",
+      "description": "first-run-pen-experience",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "fish",
+      "description": "fish",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "fm",
+      "description": "fm",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "RadioDNS_Project"
+        }
+      ]
+    },
+    {
+      "name": "ftp",
+      "description": "File Transfer Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc1738"
+        }
+      ]
+    },
+    {
+      "name": "fuchsia-pkg",
+      "description": "fuchsia-pkg",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Adam_Barth"
+        },
+        {
+          "type": "uri",
+          "data": "https://fuchsia.googlesource.com/fuchsia/"
+        }
+      ]
+    },
+    {
+      "name": "gcx",
+      "description": "gcx",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Tad_MacPherson"
+        }
+      ]
+    },
+    {
+      "name": "gdsi",
+      "description": "gdsi",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Jan_Zdr\u00e1hal"
+        }
+      ]
+    },
+    {
+      "name": "geo",
+      "description": "Geographic Locations",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc5870"
+        }
+      ]
+    },
+    {
+      "name": "gg",
+      "description": "gg",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "git",
+      "description": "git",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "gitoid",
+      "description": "gitoid",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Ed_Warnicke"
+        }
+      ]
+    },
+    {
+      "name": "gizmoproject",
+      "description": "gizmoproject",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "go",
+      "description": "go",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3368"
+        }
+      ]
+    },
+    {
+      "name": "gopher",
+      "description": "The Gopher Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4266"
+        }
+      ]
+    },
+    {
+      "name": "graph",
+      "description": "graph",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alastair_Green"
+        }
+      ]
+    },
+    {
+      "name": "grd",
+      "description": "grd",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "IESG"
+        }
+      ]
+    },
+    {
+      "name": "gsos",
+      "description": "gsos",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Raphael_Shin"
+        },
+        {
+          "type": "uri",
+          "data": "https://www.iana.org/assignments/uri-schemes/prov/gsos.pdf"
+        }
+      ]
+    },
+    {
+      "name": "gtalk",
+      "description": "gtalk",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "h323",
+      "description": "H.323",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3508"
+        }
+      ]
+    },
+    {
+      "name": "ham",
+      "description": "ham",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7046"
+        }
+      ]
+    },
+    {
+      "name": "hcap",
+      "description": "hcap",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "hcp",
+      "description": "hcp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexey_Melnikov"
+        }
+      ]
+    },
+    {
+      "name": "hs20",
+      "description": "hs20",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Bruno_Tomas"
+        }
+      ]
+    },
+    {
+      "name": "http",
+      "description": "Hypertext Transfer Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc9110"
+        }
+      ]
+    },
+    {
+      "name": "https",
+      "description": "Hypertext Transfer Protocol Secure",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc9110"
+        }
+      ]
+    },
+    {
+      "name": "hxxp",
+      "description": "hxxp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-salgado-hxxp-01"
+        }
+      ]
+    },
+    {
+      "name": "hxxps",
+      "description": "hxxps",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-salgado-hxxp-01"
+        }
+      ]
+    },
+    {
+      "name": "hydrazone",
+      "description": "hydrazone",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Matthias_Merkel"
+        },
+        {
+          "type": "uri",
+          "data": "https://tech.hydrazone.pro/uri/specification/hydrazone.txt"
+        }
+      ]
+    },
+    {
+      "name": "hyper",
+      "description": "hyper",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Fr\u00e9d\u00e9ric_Wang"
+        },
+        {
+          "type": "person",
+          "data": "Paul_Frazee"
+        }
+      ]
+    },
+    {
+      "name": "i0",
+      "description": "i0",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Ember_Ana"
+        }
+      ]
+    },
+    {
+      "name": "iax",
+      "description": "Inter-Asterisk eXchange Version 2",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc5456"
+        }
+      ]
+    },
+    {
+      "name": "ibi",
+      "description": "ibi",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Gerald_Jean_Francis_Banon"
+        }
+      ]
+    },
+    {
+      "name": "ibi-",
+      "description": "ibi-",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Gerald_Jean_Francis_Banon"
+        }
+      ]
+    },
+    {
+      "name": "icap",
+      "description": "Internet Content Adaptation Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3507"
+        }
+      ]
+    },
+    {
+      "name": "icon",
+      "description": "icon",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-lafayette-icon-uri-scheme-01"
+        }
+      ]
+    },
+    {
+      "name": "ilstring",
+      "description": "ilstring",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "OPC_Foundation"
+        },
+        {
+          "type": "uri",
+          "data": "https://webstore.iec.ch/en/publication/77973"
+        }
+      ]
+    },
+    {
+      "name": "im",
+      "description": "Instant Messaging",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3860"
+        }
+      ]
+    },
+    {
+      "name": "imap",
+      "description": "internet message access protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc5092"
+        }
+      ]
+    },
+    {
+      "name": "info",
+      "description": "Information Assets with Identifiers in Public Namespaces. \n      ",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4452"
+        }
+      ]
+    },
+    {
+      "name": "interaction",
+      "description": "interaction",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "W3C_Verifiable_Credentials_Working_Group"
+        }
+      ]
+    },
+    {
+      "name": "iotdisco",
+      "description": "iotdisco",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Peter_Waher"
+        },
+        {
+          "type": "uri",
+          "data": "https://www.iana.org/assignments/uri-schemes/prov/iotdisco.pdf"
+        }
+      ]
+    },
+    {
+      "name": "ipfs",
+      "description": "ipfs",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Fr\u00e9d\u00e9ric_Wang"
+        },
+        {
+          "type": "person",
+          "data": "Protocol_Labs"
+        }
+      ]
+    },
+    {
+      "name": "ipn",
+      "description": "ipn",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc9758"
+        }
+      ]
+    },
+    {
+      "name": "ipns",
+      "description": "ipns",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Fr\u00e9d\u00e9ric_Wang"
+        },
+        {
+          "type": "person",
+          "data": "Protocol_Labs"
+        }
+      ]
+    },
+    {
+      "name": "ipp",
+      "description": "Internet Printing Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3510"
+        }
+      ]
+    },
+    {
+      "name": "ipps",
+      "description": "Internet Printing Protocol over HTTPS",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7472"
+        }
+      ]
+    },
+    {
+      "name": "iqa",
+      "description": "iqa",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-li-rttp-iqa-addressing-00"
+        }
+      ]
+    },
+    {
+      "name": "irc",
+      "description": "irc",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "irc6",
+      "description": "irc6",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "ircs",
+      "description": "ircs",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "iris",
+      "description": "Internet Registry Information Service",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3981"
+        }
+      ]
+    },
+    {
+      "name": "iris.beep",
+      "description": "iris.beep",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3983"
+        }
+      ]
+    },
+    {
+      "name": "iris.lwz",
+      "description": "iris.lwz",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4993"
+        }
+      ]
+    },
+    {
+      "name": "iris.xpc",
+      "description": "iris.xpc",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4992"
+        }
+      ]
+    },
+    {
+      "name": "iris.xpcs",
+      "description": "iris.xpcs",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4992"
+        }
+      ]
+    },
+    {
+      "name": "isostore",
+      "description": "isostore",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "itms",
+      "description": "itms",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "jabber",
+      "description": "jabber",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Peter_Saint-Andre"
+        }
+      ]
+    },
+    {
+      "name": "jar",
+      "description": "jar",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "jms",
+      "description": "Java Message Service",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6167"
+        }
+      ]
+    },
+    {
+      "name": "keyparc",
+      "description": "keyparc",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "lastfm",
+      "description": "lastfm",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "lbry",
+      "description": "lbry",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alex_Grintsvayg"
+        }
+      ]
+    },
+    {
+      "name": "ldap",
+      "description": "Lightweight Directory Access Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4516"
+        }
+      ]
+    },
+    {
+      "name": "ldaps",
+      "description": "ldaps",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "leaptofrogans",
+      "description": "leaptofrogans",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc8589"
+        }
+      ]
+    },
+    {
+      "name": "lid",
+      "description": "lid",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "IS4"
+        }
+      ]
+    },
+    {
+      "name": "linkid",
+      "description": "linkid",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Christian_Nyffenegger"
+        }
+      ]
+    },
+    {
+      "name": "locus",
+      "description": "locus",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-subthought-locus-uri-scheme-00"
+        }
+      ]
+    },
+    {
+      "name": "lorawan",
+      "description": "lorawan",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "OMA-DMSE"
+        }
+      ]
+    },
+    {
+      "name": "lpa",
+      "description": "lpa",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "eSIM_Group_GSM_Association"
+        }
+      ]
+    },
+    {
+      "name": "lvlt",
+      "description": "lvlt",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexander_Shishenko"
+        }
+      ]
+    },
+    {
+      "name": "machineProvisioningProgressReporter",
+      "description": "Windows Autopilot Modern Device Management status updates",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "magnet",
+      "description": "magnet",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "mailserver",
+      "description": "Access to data available from mail servers",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6196"
+        }
+      ]
+    },
+    {
+      "name": "mailto",
+      "description": "Electronic mail address",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6068"
+        }
+      ]
+    },
+    {
+      "name": "maps",
+      "description": "maps",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "market",
+      "description": "market",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "matrix",
+      "description": "matrix",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Hubert_Chathi"
+        }
+      ]
+    },
+    {
+      "name": "mdoc",
+      "description": "mdoc",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "ISO_IEC_JTC1_SC17"
+        }
+      ]
+    },
+    {
+      "name": "mdoc-openid4vp",
+      "description": "mdoc-openid4vp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "ISO_IEC_JTC1_SC17"
+        }
+      ]
+    },
+    {
+      "name": "message",
+      "description": "message",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "microsoft.windows.camera",
+      "description": "microsoft.windows.camera",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "microsoft.windows.camera.multipicker",
+      "description": "microsoft.windows.camera.multipicker",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "microsoft.windows.camera.picker",
+      "description": "microsoft.windows.camera.picker",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "mid",
+      "description": "message identifier",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2392"
+        }
+      ]
+    },
+    {
+      "name": "mms",
+      "description": "mms",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexey_Melnikov"
+        }
+      ]
+    },
+    {
+      "name": "modem",
+      "description": "modem",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2806"
+        },
+        {
+          "type": "rfc",
+          "data": "rfc3966"
+        }
+      ]
+    },
+    {
+      "name": "mongodb",
+      "description": "mongodb",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Ignacio_Losiggio"
+        },
+        {
+          "type": "person",
+          "data": "Mongo_DB_Inc"
+        }
+      ]
+    },
+    {
+      "name": "moz",
+      "description": "moz",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Joe_Hildebrand"
+        }
+      ]
+    },
+    {
+      "name": "mqtt",
+      "description": "mqtt",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Mike_Bishop"
+        }
+      ]
+    },
+    {
+      "name": "mqtts",
+      "description": "mqtts",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Mike_Bishop"
+        }
+      ]
+    },
+    {
+      "name": "ms-access",
+      "description": "ms-access",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-appinstaller",
+      "description": "ms-appinstaller",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-browser-extension",
+      "description": "ms-browser-extension",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-calculator",
+      "description": "ms-calculator",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-drive-to",
+      "description": "ms-drive-to",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-enrollment",
+      "description": "ms-enrollment",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-excel",
+      "description": "ms-excel",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-eyecontrolspeech",
+      "description": "ms-eyecontrolspeech",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-gamebarservices",
+      "description": "ms-gamebarservices",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-gamingoverlay",
+      "description": "ms-gamingoverlay",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-getoffice",
+      "description": "ms-getoffice",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-help",
+      "description": "ms-help",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexey_Melnikov"
+        }
+      ]
+    },
+    {
+      "name": "ms-infopath",
+      "description": "ms-infopath",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-inputapp",
+      "description": "ms-inputapp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-launchremotedesktop",
+      "description": "ms-launchremotedesktop",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-lockscreencomponent-config",
+      "description": "ms-lockscreencomponent-config",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-media-stream-id",
+      "description": "ms-media-stream-id",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-meetnow",
+      "description": "ms-meetnow",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-mixedrealitycapture",
+      "description": "ms-mixedrealitycapture",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-mobileplans",
+      "description": "ms-mobileplans",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-newsandinterests",
+      "description": "ms-newsandinterests",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-officeapp",
+      "description": "ms-officeapp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-people",
+      "description": "ms-people",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-personacard",
+      "description": "ms-personacard",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-powerpoint",
+      "description": "ms-powerpoint",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-project",
+      "description": "ms-project",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-publisher",
+      "description": "ms-publisher",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-recall",
+      "description": "ms-recall",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-remotedesktop",
+      "description": "ms-remotedesktop",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-remotedesktop-launch",
+      "description": "ms-remotedesktop-launch",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-restoretabcompanion",
+      "description": "ms-restoretabcompanion",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-screenclip",
+      "description": "ms-screenclip",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-screensketch",
+      "description": "ms-screensketch",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-search",
+      "description": "ms-search",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-search-repair",
+      "description": "ms-search-repair",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-secondary-screen-controller",
+      "description": "ms-secondary-screen-controller",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-secondary-screen-setup",
+      "description": "ms-secondary-screen-setup",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings",
+      "description": "ms-settings",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-airplanemode",
+      "description": "ms-settings-airplanemode",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-bluetooth",
+      "description": "ms-settings-bluetooth",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-camera",
+      "description": "ms-settings-camera",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-cellular",
+      "description": "ms-settings-cellular",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-cloudstorage",
+      "description": "ms-settings-cloudstorage",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-connectabledevices",
+      "description": "ms-settings-connectabledevices",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-displays-topology",
+      "description": "ms-settings-displays-topology",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-emailandaccounts",
+      "description": "ms-settings-emailandaccounts",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-language",
+      "description": "ms-settings-language",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-location",
+      "description": "ms-settings-location",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-lock",
+      "description": "ms-settings-lock",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-nfctransactions",
+      "description": "ms-settings-nfctransactions",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-notifications",
+      "description": "ms-settings-notifications",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-power",
+      "description": "ms-settings-power",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-privacy",
+      "description": "ms-settings-privacy",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-proximity",
+      "description": "ms-settings-proximity",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-screenrotation",
+      "description": "ms-settings-screenrotation",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-wifi",
+      "description": "ms-settings-wifi",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-settings-workplace",
+      "description": "ms-settings-workplace",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-spd",
+      "description": "ms-spd",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-stickers",
+      "description": "ms-stickers",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-sttoverlay",
+      "description": "ms-sttoverlay",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-transit-to",
+      "description": "ms-transit-to",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-useractivityset",
+      "description": "ms-useractivityset",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-uup",
+      "description": "ms-uup",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-virtualtouchpad",
+      "description": "ms-virtualtouchpad",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-visio",
+      "description": "ms-visio",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-walk-to",
+      "description": "ms-walk-to",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-whiteboard",
+      "description": "ms-whiteboard",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-whiteboard-cmd",
+      "description": "ms-whiteboard-cmd",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-widgetboard",
+      "description": "ms-widgetboard",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-widgets",
+      "description": "ms-widgets",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "ms-word",
+      "description": "ms-word",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "msnim",
+      "description": "msnim",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexey_Melnikov"
+        }
+      ]
+    },
+    {
+      "name": "msrp",
+      "description": "Message Session Relay Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4975"
+        }
+      ]
+    },
+    {
+      "name": "msrps",
+      "description": "Message Session Relay Protocol Secure",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4975"
+        },
+        {
+          "type": "rfc",
+          "data": "rfc8873"
+        }
+      ]
+    },
+    {
+      "name": "mss",
+      "description": "mss",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Jarmo_Miettinen"
+        }
+      ]
+    },
+    {
+      "name": "mt",
+      "description": "Matter protocol on-boarding payloads that are encoded for use in QR Codes and/or NFC Tags",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Connectivity_Standards_Alliance"
+        }
+      ]
+    },
+    {
+      "name": "mtqp",
+      "description": "Message Tracking Query Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3887"
+        }
+      ]
+    },
+    {
+      "name": "mtrust",
+      "description": "mtrust",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Egbert_von_Frankenberg"
+        }
+      ]
+    },
+    {
+      "name": "mumble",
+      "description": "mumble",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "mupdate",
+      "description": "Mailbox Update (MUPDATE) Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3656"
+        }
+      ]
+    },
+    {
+      "name": "musik",
+      "description": "musik",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexander_Forselius_2"
+        }
+      ]
+    },
+    {
+      "name": "mvn",
+      "description": "mvn",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "mvrp",
+      "description": "mvrp\n      (see ",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Antonio_Walker"
+        }
+      ]
+    },
+    {
+      "name": "mvrps",
+      "description": "mvrps\n      (see ",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Antonio_Walker"
+        }
+      ]
+    },
+    {
+      "name": "news",
+      "description": "USENET news",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc5538"
+        }
+      ]
+    },
+    {
+      "name": "nfs",
+      "description": "network file system protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2224"
+        }
+      ]
+    },
+    {
+      "name": "ni",
+      "description": "ni",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6920"
+        }
+      ]
+    },
+    {
+      "name": "nih",
+      "description": "nih",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6920"
+        }
+      ]
+    },
+    {
+      "name": "nntp",
+      "description": "USENET news using NNTP access",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc5538"
+        }
+      ]
+    },
+    {
+      "name": "nostr",
+      "description": "nostr",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alex_Gleason"
+        },
+        {
+          "type": "uri",
+          "data": "https://github.com/nostr-protocol/nostr"
+        }
+      ]
+    },
+    {
+      "name": "notes",
+      "description": "notes",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-dconmy-notes-uri-scheme-02"
+        }
+      ]
+    },
+    {
+      "name": "npamp",
+      "description": "npamp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-bubblefish-npamp-00"
+        }
+      ]
+    },
+    {
+      "name": "num",
+      "description": "Namespace Utility Modules",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Elliott_Brown"
+        },
+        {
+          "type": "uri",
+          "data": "https://www.numprotocol.com/specification"
+        }
+      ]
+    },
+    {
+      "name": "ocf",
+      "description": "ocf",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "oid",
+      "description": "oid",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-larmouth-oid-iri-04"
+        }
+      ]
+    },
+    {
+      "name": "onenote",
+      "description": "onenote",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "onenote-cmd",
+      "description": "onenote-cmd",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "opaquelocktoken",
+      "description": "opaquelocktokent",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4918"
+        }
+      ]
+    },
+    {
+      "name": "openid",
+      "description": "OpenID Connect",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "OpenID_Foundation_Artifact_Binding_Working_Group"
+        },
+        {
+          "type": "uri",
+          "data": "https://openid.net/specs/openid-connect-core-1_0-31.html#SelfIssuedRequest"
+        }
+      ]
+    },
+    {
+      "name": "openpgp4fpr",
+      "description": "openpgp4fpr",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Wiktor_Kwapisiewicz"
+        }
+      ]
+    },
+    {
+      "name": "opns",
+      "description": "opns",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexander_Taytelbaum"
+        }
+      ]
+    },
+    {
+      "name": "ord",
+      "description": "ord",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexander_Taytelbaum"
+        }
+      ]
+    },
+    {
+      "name": "ordmail",
+      "description": "ordmail",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexander_Taytelbaum"
+        }
+      ]
+    },
+    {
+      "name": "otpauth",
+      "description": "otpauth",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Fr\u00e9d\u00e9ric_Wang"
+        },
+        {
+          "type": "person",
+          "data": "Thomas_Habets"
+        }
+      ]
+    },
+    {
+      "name": "p1",
+      "description": "p1",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "IESG"
+        }
+      ]
+    },
+    {
+      "name": "pack",
+      "description": "pack",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-shur-pack-uri-scheme-05"
+        }
+      ]
+    },
+    {
+      "name": "palm",
+      "description": "palm",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "paparazzi",
+      "description": "paparazzi",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "payment",
+      "description": "payment",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "IESG"
+        }
+      ]
+    },
+    {
+      "name": "payto",
+      "description": "payto",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc8905"
+        }
+      ]
+    },
+    {
+      "name": "pkcs11",
+      "description": "PKCS#11",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7512"
+        }
+      ]
+    },
+    {
+      "name": "pkg",
+      "description": "pkg",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Philippe_Ombredanne"
+        }
+      ]
+    },
+    {
+      "name": "platform",
+      "description": "platform",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "pop",
+      "description": "Post Office Protocol v3",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2384"
+        }
+      ]
+    },
+    {
+      "name": "pres",
+      "description": "Presence",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3859"
+        }
+      ]
+    },
+    {
+      "name": "prospero",
+      "description": "Prospero Directory Service",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4157"
+        }
+      ]
+    },
+    {
+      "name": "proxy",
+      "description": "proxy",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "psyc",
+      "description": "psyc",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "pttp",
+      "description": "pttp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Tony_Deng"
+        },
+        {
+          "type": "person",
+          "data": "Tuan_Hoang"
+        },
+        {
+          "type": "person",
+          "data": "Bob_Hinkle"
+        },
+        {
+          "type": "person",
+          "data": "Mark_Chen"
+        }
+      ]
+    },
+    {
+      "name": "pwid",
+      "description": "pwid",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Eld_Zierau"
+        }
+      ]
+    },
+    {
+      "name": "qb",
+      "description": "qb",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Jan_Pokorny"
+        }
+      ]
+    },
+    {
+      "name": "query",
+      "description": "query",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "quic-transport",
+      "description": "quic-transport",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-vvv-webtransport-quic-00"
+        }
+      ]
+    },
+    {
+      "name": "redis",
+      "description": "redis",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Chris_Rebert"
+        }
+      ]
+    },
+    {
+      "name": "rediss",
+      "description": "rediss",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Chris_Rebert"
+        }
+      ]
+    },
+    {
+      "name": "reload",
+      "description": "reload",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6940"
+        }
+      ]
+    },
+    {
+      "name": "res",
+      "description": "res",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexey_Melnikov"
+        }
+      ]
+    },
+    {
+      "name": "resource",
+      "description": "resource",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "rmi",
+      "description": "rmi",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "rsync",
+      "description": "rsync",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc5781"
+        }
+      ]
+    },
+    {
+      "name": "rtmfp",
+      "description": "rtmfp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7425"
+        }
+      ]
+    },
+    {
+      "name": "rtmp",
+      "description": "rtmp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "rtsp",
+      "description": "Real-Time Streaming Protocol (RTSP)",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2326"
+        },
+        {
+          "type": "rfc",
+          "data": "rfc7826"
+        }
+      ]
+    },
+    {
+      "name": "rtsps",
+      "description": "Real-Time Streaming Protocol (RTSP) over TLS",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2326"
+        },
+        {
+          "type": "rfc",
+          "data": "rfc7826"
+        }
+      ]
+    },
+    {
+      "name": "rtspu",
+      "description": "Real-Time Streaming Protocol (RTSP) over unreliable datagram transport",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2326"
+        }
+      ]
+    },
+    {
+      "name": "rttp",
+      "description": "rttp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-li-rttp-iqa-addressing-00"
+        }
+      ]
+    },
+    {
+      "name": "sarif",
+      "description": "sarif",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "OASIS_Open"
+        },
+        {
+          "type": "person",
+          "data": "Michael_C_Fanning"
+        },
+        {
+          "type": "person",
+          "data": "David_Keaton"
+        }
+      ]
+    },
+    {
+      "name": "secondlife",
+      "description": "query",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "secret-token",
+      "description": "secret-token",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc8959"
+        }
+      ]
+    },
+    {
+      "name": "seki",
+      "description": "seki",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Jim_Jeang"
+        }
+      ]
+    },
+    {
+      "name": "service",
+      "description": "service location",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2609"
+        }
+      ]
+    },
+    {
+      "name": "session",
+      "description": "session",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6787"
+        }
+      ]
+    },
+    {
+      "name": "sftp",
+      "description": "query",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "sgn",
+      "description": "sgn",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "shc",
+      "description": "shc",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Josh_Mandel"
+        }
+      ]
+    },
+    {
+      "name": "shelter",
+      "description": "shelter",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "okTurtles_Foundation"
+        }
+      ]
+    },
+    {
+      "name": "shttp (OBSOLETE)",
+      "description": "Secure Hypertext Transfer Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2660"
+        },
+        {
+          "type": "uri",
+          "data": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic"
+        }
+      ]
+    },
+    {
+      "name": "sieve",
+      "description": "ManageSieve Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc5804"
+        }
+      ]
+    },
+    {
+      "name": "simpleledger",
+      "description": "simpleledger",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "James_Cramer"
+        }
+      ]
+    },
+    {
+      "name": "simplex",
+      "description": "simplex",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Evgeny_Poberezkin"
+        }
+      ]
+    },
+    {
+      "name": "sip",
+      "description": "session initiation protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3261"
+        }
+      ]
+    },
+    {
+      "name": "sips",
+      "description": "secure session initiation protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3261"
+        }
+      ]
+    },
+    {
+      "name": "skype",
+      "description": "skype",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexey_Melnikov"
+        }
+      ]
+    },
+    {
+      "name": "smb",
+      "description": "smb",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "smp",
+      "description": "smp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Evgeny_Poberezkin"
+        }
+      ]
+    },
+    {
+      "name": "sms",
+      "description": "Short Message Service",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc5724"
+        }
+      ]
+    },
+    {
+      "name": "smtp",
+      "description": "smtp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-melnikov-smime-msa-to-mda-03"
+        }
+      ]
+    },
+    {
+      "name": "snews",
+      "description": "NNTP over SSL/TLS",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc5538"
+        }
+      ]
+    },
+    {
+      "name": "snmp",
+      "description": "Simple Network Management Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4088"
+        }
+      ]
+    },
+    {
+      "name": "sns",
+      "description": "sns",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexander_Taytelbaum"
+        }
+      ]
+    },
+    {
+      "name": "soap.beep",
+      "description": "soap.beep",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4227"
+        }
+      ]
+    },
+    {
+      "name": "soap.beeps",
+      "description": "soap.beeps",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4227"
+        }
+      ]
+    },
+    {
+      "name": "soldat",
+      "description": "soldat",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "spacify",
+      "description": "spacify",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Alexander_Forselius"
+        }
+      ]
+    },
+    {
+      "name": "spiffe",
+      "description": "spiffe",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Evan_Gilman"
+        }
+      ]
+    },
+    {
+      "name": "spotify",
+      "description": "spotify",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "ssb",
+      "description": "ssb",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Fr\u00e9d\u00e9ric_Wang"
+        },
+        {
+          "type": "person",
+          "data": "Secure_Scuttlebutt_Consortium"
+        }
+      ]
+    },
+    {
+      "name": "ssh",
+      "description": "ssh",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "sss",
+      "description": "sss",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "David_Roy_Thomason"
+        }
+      ]
+    },
+    {
+      "name": "starknet",
+      "description": "starknet",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Abraham_Makovetsky"
+        }
+      ]
+    },
+    {
+      "name": "steam",
+      "description": "steam",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "stun",
+      "description": "stun",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7064"
+        }
+      ]
+    },
+    {
+      "name": "stuns",
+      "description": "stuns",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7064"
+        }
+      ]
+    },
+    {
+      "name": "submit",
+      "description": "submit",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-melnikov-smime-msa-to-mda-03"
+        }
+      ]
+    },
+    {
+      "name": "svn",
+      "description": "svn",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "swh",
+      "description": "swh",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Software_Heritage"
+        },
+        {
+          "type": "person",
+          "data": "Stefano_Zacchiroli"
+        }
+      ]
+    },
+    {
+      "name": "swid",
+      "description": "swid (see ",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc9393"
+        }
+      ]
+    },
+    {
+      "name": "swidpath",
+      "description": "swidpath (see ",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc9393"
+        }
+      ]
+    },
+    {
+      "name": "tag",
+      "description": "tag",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4151"
+        }
+      ]
+    },
+    {
+      "name": "taler",
+      "description": "taler",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-grothoff-taler-01"
+        }
+      ]
+    },
+    {
+      "name": "tcxp",
+      "description": "tcxp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "uri",
+          "data": "https://github.com/typed-context-protocol/charter"
+        },
+        {
+          "type": "uri",
+          "data": "https://www.w3.org/community/typed-context-protocol/"
+        }
+      ]
+    },
+    {
+      "name": "teamspeak",
+      "description": "teamspeak",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "teapot",
+      "description": "teapot",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Karwan_Stark"
+        }
+      ]
+    },
+    {
+      "name": "teapots",
+      "description": "teapots",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Karwan_Stark"
+        }
+      ]
+    },
+    {
+      "name": "tel",
+      "description": "telephone",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3966"
+        },
+        {
+          "type": "rfc",
+          "data": "rfc5341"
+        }
+      ]
+    },
+    {
+      "name": "teliaeid",
+      "description": "teliaeid",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Peter_Lewandowski"
+        }
+      ]
+    },
+    {
+      "name": "telnet",
+      "description": "Reference to interactive sessions",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4248"
+        }
+      ]
+    },
+    {
+      "name": "tftp",
+      "description": "Trivial File Transfer Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3617"
+        }
+      ]
+    },
+    {
+      "name": "things",
+      "description": "things",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "thismessage",
+      "description": "multipart/related relative reference resolution",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2557"
+        }
+      ]
+    },
+    {
+      "name": "thzp",
+      "description": "thzp",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "IESG"
+        }
+      ]
+    },
+    {
+      "name": "tii",
+      "description": "tii",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Naoto_Fujie"
+        }
+      ]
+    },
+    {
+      "name": "tip",
+      "description": "Transaction Internet Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2371"
+        }
+      ]
+    },
+    {
+      "name": "tn3270",
+      "description": "Interactive 3270 emulation sessions",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6270"
+        }
+      ]
+    },
+    {
+      "name": "tool",
+      "description": "tool",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Matthias_Merkel"
+        }
+      ]
+    },
+    {
+      "name": "tttps",
+      "description": "TLS TimeToken Secure Protocol (TTTPS). A cryptographic \ntemporal ordering proof protocol augmenting TLS 1.3 with Proof-of-Time records.",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-helmprotocol-tttps-04"
+        }
+      ]
+    },
+    {
+      "name": "turn",
+      "description": "turn",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7065"
+        }
+      ]
+    },
+    {
+      "name": "turns",
+      "description": "turns",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7065"
+        }
+      ]
+    },
+    {
+      "name": "tv",
+      "description": "TV Broadcasts",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2838"
+        }
+      ]
+    },
+    {
+      "name": "udp",
+      "description": "udp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "unreal",
+      "description": "unreal",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "upn",
+      "description": "upn",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Gerald_Jean_Francis_Banon"
+        }
+      ]
+    },
+    {
+      "name": "upt",
+      "description": "upt",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "IESG"
+        }
+      ]
+    },
+    {
+      "name": "urn",
+      "description": "Uniform Resource Names",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc8141"
+        },
+        {
+          "type": "registry",
+          "data": "urn-namespaces"
+        }
+      ]
+    },
+    {
+      "name": "ust",
+      "description": "ust",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Evgenii_Cherniakhovskii"
+        },
+        {
+          "type": "person",
+          "data": "THE_LAB"
+        },
+        {
+          "type": "uri",
+          "data": "https://github.com/thelabmd/UST-Protocol/blob/main/spec/UST-1.0.md"
+        }
+      ]
+    },
+    {
+      "name": "ut2004",
+      "description": "ut2004",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "uuaid",
+      "description": "uuaid",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Madhankumar_Kuppusamy"
+        },
+        {
+          "type": "person",
+          "data": "UUAID_Foundation"
+        }
+      ]
+    },
+    {
+      "name": "uuid-in-package",
+      "description": "uuid-in-package",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Kunihiko_Sakamoto"
+        }
+      ]
+    },
+    {
+      "name": "v-event",
+      "description": "v-event",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-menderico-v-event-uri-00"
+        }
+      ]
+    },
+    {
+      "name": "vemmi",
+      "description": "versatile multimedia interface",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2122"
+        }
+      ]
+    },
+    {
+      "name": "ventrilo",
+      "description": "ventrilo",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "ves",
+      "description": "ves",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Jim_Zubov"
+        }
+      ]
+    },
+    {
+      "name": "videotex",
+      "description": "videotex",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "draft",
+          "data": "draft-mavrakis-videotex-url-spec-01"
+        },
+        {
+          "type": "rfc",
+          "data": "rfc2122"
+        },
+        {
+          "type": "rfc",
+          "data": "rfc3986"
+        }
+      ]
+    },
+    {
+      "name": "view-source",
+      "description": "view-source",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Mykyta_Yevstifeyev"
+        }
+      ]
+    },
+    {
+      "name": "vnc",
+      "description": "Remote Framebuffer Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc7869"
+        }
+      ]
+    },
+    {
+      "name": "vscode",
+      "description": "vscode",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "vscode-insiders",
+      "description": "vscode-insiders",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "vsls",
+      "description": "vsls",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "urischemeowners_at_microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "w3",
+      "description": "w3 \n      (see ",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Qi_Zhou"
+        }
+      ]
+    },
+    {
+      "name": "wais",
+      "description": "Wide Area Information Servers",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc4156"
+        }
+      ]
+    },
+    {
+      "name": "wasm",
+      "description": "wasm",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "W3C_WebAssembly_Community_Group"
+        }
+      ]
+    },
+    {
+      "name": "wasm-js",
+      "description": "wasm-js",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "W3C_WebAssembly_Community_Group"
+        }
+      ]
+    },
+    {
+      "name": "wcr",
+      "description": "wcr",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Jason_Dzubak"
+        }
+      ]
+    },
+    {
+      "name": "web+ap",
+      "description": "web+ap",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Soni_L."
+        }
+      ]
+    },
+    {
+      "name": "web+interaction",
+      "description": "web+interaction",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "W3C_Verifiable_Credentials_Working_Group"
+        }
+      ]
+    },
+    {
+      "name": "web3",
+      "description": "web3",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Qi_Zhou"
+        }
+      ]
+    },
+    {
+      "name": "webcal",
+      "description": "webcal",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "wifi",
+      "description": "wifi",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Wi-Fi_Alliance"
+        },
+        {
+          "type": "person",
+          "data": "Jun_Tian"
+        }
+      ]
+    },
+    {
+      "name": "wpid",
+      "description": "wpid",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Eld_Zierau"
+        }
+      ]
+    },
+    {
+      "name": "ws",
+      "description": "WebSocket connections",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6455"
+        }
+      ]
+    },
+    {
+      "name": "wss",
+      "description": "Encrypted WebSocket connections",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6455"
+        }
+      ]
+    },
+    {
+      "name": "wtai",
+      "description": "wtai",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "wyciwyg",
+      "description": "wyciwyg",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "xcompute",
+      "description": "xcompute",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Graham_Orr"
+        }
+      ]
+    },
+    {
+      "name": "xcon",
+      "description": "xcon",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6501"
+        }
+      ]
+    },
+    {
+      "name": "xcon-userid",
+      "description": "xcon-userid",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc6501"
+        }
+      ]
+    },
+    {
+      "name": "xfire",
+      "description": "xfire",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "xftp",
+      "description": "xftp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Evgeny_Poberezkin"
+        }
+      ]
+    },
+    {
+      "name": "xmlrpc.beep",
+      "description": "xmlrpc.beep",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3529"
+        }
+      ]
+    },
+    {
+      "name": "xmlrpc.beeps",
+      "description": "xmlrpc.beeps",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc3529"
+        }
+      ]
+    },
+    {
+      "name": "xmpp",
+      "description": "Extensible Messaging and Presence Protocol",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc5122"
+        }
+      ]
+    },
+    {
+      "name": "xrcp",
+      "description": "xrcp",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Evgeny_Poberezkin"
+        }
+      ]
+    },
+    {
+      "name": "xri",
+      "description": "xri",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "ymsgr",
+      "description": "ymsgr",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dave_Thaler"
+        }
+      ]
+    },
+    {
+      "name": "z39.50",
+      "description": "Z39.50 information access",
+      "status": "Historical",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc1738"
+        },
+        {
+          "type": "rfc",
+          "data": "rfc2056"
+        }
+      ]
+    },
+    {
+      "name": "z39.50r",
+      "description": "Z39.50 Retrieval",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2056"
+        }
+      ]
+    },
+    {
+      "name": "z39.50s",
+      "description": "Z39.50 Session",
+      "status": "Permanent",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc2056"
+        }
+      ]
+    },
+    {
+      "name": "ztdnaid",
+      "description": "ztdnaid",
+      "status": "Provisional",
+      "type": "uri-scheme",
+      "references": [
+        {
+          "type": "person",
+          "data": "Dick_Brooks"
+        }
+      ]
+    }
+  ]
+}

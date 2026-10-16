@@ -1,0 +1,14 @@
+dea-catalog-references
+Copyright 2026 The technehub-labs authors
+
+This product includes software developed at
+technehub-labs (https://github.com/technehub-labs).
+
+This product includes data sourced from the Internet Assigned Numbers
+Authority (IANA) media-types and uri-schemes registries, mirrored
+under the IANA Terms of Service. IANA is the authoritative source;
+this mirror is for static-lookup convenience.
+
+This product includes the Enterprise Concept Framework (ECF) 7 x 7
+matrix sourced from technehub-labs/dea-metaframework, used under
+the MIT license.

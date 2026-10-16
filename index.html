@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenDEA Reference Registry</title>
+<meta name="description" content="OpenDEA reference registry: IANA media types (RFC 6838), IANA URI schemes (RFC 3986 / RFC 7595), and the ECF 7x7 coordinate enumeration.">
+<link rel="alternate" type="application/json" href="/data/index.json">
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; max-width: 60rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+  header h1 { margin-bottom: 0; }
+  header p.tag { margin-top: 0.25rem; color: #666; font-size: 0.95rem; }
+  nav ul { list-style: none; padding: 0; }
+  nav li { margin: 0.5rem 0; padding: 0.5rem 0; border-bottom: 1px solid #eee; }
+  nav a { font-weight: 600; text-decoration: none; }
+  nav a:hover { text-decoration: underline; }
+  nav small { color: #666; display: block; margin-top: 0.15rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eee; color: #666; font-size: 0.85rem; }
+  code { background: #f4f4f4; padding: 0.1em 0.3em; border-radius: 0.2em; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<header>
+<h1>OpenDEA Reference Registry</h1>
+<p class="tag">Mirrors of authoritative external registries + the Enterprise Concept Framework 7x7 matrix.</p>
+</header>
+
+<nav>
+<ul>
+<li>
+<a href="/media-types/">IANA Media Types</a>
+<small>RFC 6838. Mirror of the IANA Media Types registry. 2,305 records in the 2026-10-16 snapshot.</small>
+</li>
+<li>
+<a href="/uri-schemes/">IANA URI Schemes</a>
+<small>RFC 3986, RFC 7595. Mirror of the IANA URI Schemes registry (uri-schemes-1). 451 records in the 2026-10-16 snapshot.</small>
+</li>
+<li>
+<a href="/ecf/">Enterprise Concept Framework (ECF)</a>
+<small>7 x 7 coordinate enumeration from <code>technehub-labs/dea-metaframework/framework/matrix.md</code>. 49 coordinates.</small>
+</li>
+</ul>
+</nav>
+
+<footer>
+<p>Snapshot date: 2026-10-16. Build: <code>scripts/build.sh</code>. Hash audit: <a href="/data/SHA256SUMS"><code>data/SHA256SUMS</code></a>.</p>
+<p>Hosted at <a href="https://lists.technehub.com/">lists.technehub.com</a>. Source: <a href="https://github.com/technehub-labs/dea-catalog-references">github.com/technehub-labs/dea-catalog-references</a>. License: MIT.</p>
+<p>Healthcheck: <a href="/healthz"><code>/healthz</code></a>.</p>
+</footer>
+</body>
+</html>

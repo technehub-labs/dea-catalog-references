@@ -1,0 +1,467 @@
+{
+  "source": "technehub-labs/dea-metaframework/framework/matrix.md",
+  "standard": "ECF (Enterprise Concept Framework)",
+  "snapshot_date": "2026-10-16",
+  "domains": [
+    "Governance & Existence",
+    "Strategy & Direction",
+    "Agency & Organization",
+    "Party & Relationship",
+    "Product & Value",
+    "Enablement & Operations",
+    "Finance & Accounting"
+  ],
+  "stages": [
+    "Conceive",
+    "Design",
+    "Build",
+    "Activate",
+    "Operate",
+    "Improve",
+    "Retire"
+  ],
+  "count": 49,
+  "coordinates": [
+    {
+      "id": "ecf:governance-existence.conceive",
+      "domain": "Governance & Existence",
+      "stage": "Conceive",
+      "domain_token": "governance-existence",
+      "stage_token": "conceive",
+      "typical_work": "Policy intent",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:governance-existence.design",
+      "domain": "Governance & Existence",
+      "stage": "Design",
+      "domain_token": "governance-existence",
+      "stage_token": "design",
+      "typical_work": "Controls design",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:governance-existence.build",
+      "domain": "Governance & Existence",
+      "stage": "Build",
+      "domain_token": "governance-existence",
+      "stage_token": "build",
+      "typical_work": "Compliance build",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:governance-existence.activate",
+      "domain": "Governance & Existence",
+      "stage": "Activate",
+      "domain_token": "governance-existence",
+      "stage_token": "activate",
+      "typical_work": "Enforce",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:governance-existence.operate",
+      "domain": "Governance & Existence",
+      "stage": "Operate",
+      "domain_token": "governance-existence",
+      "stage_token": "operate",
+      "typical_work": "Assurance",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:governance-existence.improve",
+      "domain": "Governance & Existence",
+      "stage": "Improve",
+      "domain_token": "governance-existence",
+      "stage_token": "improve",
+      "typical_work": "Risk review",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:governance-existence.retire",
+      "domain": "Governance & Existence",
+      "stage": "Retire",
+      "domain_token": "governance-existence",
+      "stage_token": "retire",
+      "typical_work": "Policy retire",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:strategy-direction.conceive",
+      "domain": "Strategy & Direction",
+      "stage": "Conceive",
+      "domain_token": "strategy-direction",
+      "stage_token": "conceive",
+      "typical_work": "Purpose & ambition",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:strategy-direction.design",
+      "domain": "Strategy & Direction",
+      "stage": "Design",
+      "domain_token": "strategy-direction",
+      "stage_token": "design",
+      "typical_work": "Strategic choices",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:strategy-direction.build",
+      "domain": "Strategy & Direction",
+      "stage": "Build",
+      "domain_token": "strategy-direction",
+      "stage_token": "build",
+      "typical_work": "Initiative portfolio",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:strategy-direction.activate",
+      "domain": "Strategy & Direction",
+      "stage": "Activate",
+      "domain_token": "strategy-direction",
+      "stage_token": "activate",
+      "typical_work": "Launch direction",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:strategy-direction.operate",
+      "domain": "Strategy & Direction",
+      "stage": "Operate",
+      "domain_token": "strategy-direction",
+      "stage_token": "operate",
+      "typical_work": "Course correction",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:strategy-direction.improve",
+      "domain": "Strategy & Direction",
+      "stage": "Improve",
+      "domain_token": "strategy-direction",
+      "stage_token": "improve",
+      "typical_work": "Performance review",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:strategy-direction.retire",
+      "domain": "Strategy & Direction",
+      "stage": "Retire",
+      "domain_token": "strategy-direction",
+      "stage_token": "retire",
+      "typical_work": "Strategic renewal",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:agency-organization.conceive",
+      "domain": "Agency & Organization",
+      "stage": "Conceive",
+      "domain_token": "agency-organization",
+      "stage_token": "conceive",
+      "typical_work": "Capacity plan",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:agency-organization.design",
+      "domain": "Agency & Organization",
+      "stage": "Design",
+      "domain_token": "agency-organization",
+      "stage_token": "design",
+      "typical_work": "Org design",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:agency-organization.build",
+      "domain": "Agency & Organization",
+      "stage": "Build",
+      "domain_token": "agency-organization",
+      "stage_token": "build",
+      "typical_work": "Acquire / onboard",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:agency-organization.activate",
+      "domain": "Agency & Organization",
+      "stage": "Activate",
+      "domain_token": "agency-organization",
+      "stage_token": "activate",
+      "typical_work": "Mobilize",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:agency-organization.operate",
+      "domain": "Agency & Organization",
+      "stage": "Operate",
+      "domain_token": "agency-organization",
+      "stage_token": "operate",
+      "typical_work": "Perform & develop",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:agency-organization.improve",
+      "domain": "Agency & Organization",
+      "stage": "Improve",
+      "domain_token": "agency-organization",
+      "stage_token": "improve",
+      "typical_work": "Coordination",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:agency-organization.retire",
+      "domain": "Agency & Organization",
+      "stage": "Retire",
+      "domain_token": "agency-organization",
+      "stage_token": "retire",
+      "typical_work": "Offboard / reassign",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:party-relationship.conceive",
+      "domain": "Party & Relationship",
+      "stage": "Conceive",
+      "domain_token": "party-relationship",
+      "stage_token": "conceive",
+      "typical_work": "Need identification",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:party-relationship.design",
+      "domain": "Party & Relationship",
+      "stage": "Design",
+      "domain_token": "party-relationship",
+      "stage_token": "design",
+      "typical_work": "Journey mapping",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:party-relationship.build",
+      "domain": "Party & Relationship",
+      "stage": "Build",
+      "domain_token": "party-relationship",
+      "stage_token": "build",
+      "typical_work": "Onboarding",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:party-relationship.activate",
+      "domain": "Party & Relationship",
+      "stage": "Activate",
+      "domain_token": "party-relationship",
+      "stage_token": "activate",
+      "typical_work": "Activation",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:party-relationship.operate",
+      "domain": "Party & Relationship",
+      "stage": "Operate",
+      "domain_token": "party-relationship",
+      "stage_token": "operate",
+      "typical_work": "Support & service",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:party-relationship.improve",
+      "domain": "Party & Relationship",
+      "stage": "Improve",
+      "domain_token": "party-relationship",
+      "stage_token": "improve",
+      "typical_work": "Satisfaction & churn",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:party-relationship.retire",
+      "domain": "Party & Relationship",
+      "stage": "Retire",
+      "domain_token": "party-relationship",
+      "stage_token": "retire",
+      "typical_work": "Offboarding",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:product-value.conceive",
+      "domain": "Product & Value",
+      "stage": "Conceive",
+      "domain_token": "product-value",
+      "stage_token": "conceive",
+      "typical_work": "Market sensing",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:product-value.design",
+      "domain": "Product & Value",
+      "stage": "Design",
+      "domain_token": "product-value",
+      "stage_token": "design",
+      "typical_work": "Catalog & specs",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:product-value.build",
+      "domain": "Product & Value",
+      "stage": "Build",
+      "domain_token": "product-value",
+      "stage_token": "build",
+      "typical_work": "Configuration",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:product-value.activate",
+      "domain": "Product & Value",
+      "stage": "Activate",
+      "domain_token": "product-value",
+      "stage_token": "activate",
+      "typical_work": "Launch",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:product-value.operate",
+      "domain": "Product & Value",
+      "stage": "Operate",
+      "domain_token": "product-value",
+      "stage_token": "operate",
+      "typical_work": "Catalog mgmt",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:product-value.improve",
+      "domain": "Product & Value",
+      "stage": "Improve",
+      "domain_token": "product-value",
+      "stage_token": "improve",
+      "typical_work": "Performance",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:product-value.retire",
+      "domain": "Product & Value",
+      "stage": "Retire",
+      "domain_token": "product-value",
+      "stage_token": "retire",
+      "typical_work": "Sunset",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:enablement-operations.conceive",
+      "domain": "Enablement & Operations",
+      "stage": "Conceive",
+      "domain_token": "enablement-operations",
+      "stage_token": "conceive",
+      "typical_work": "Demand planning",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:enablement-operations.design",
+      "domain": "Enablement & Operations",
+      "stage": "Design",
+      "domain_token": "enablement-operations",
+      "stage_token": "design",
+      "typical_work": "Process design",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:enablement-operations.build",
+      "domain": "Enablement & Operations",
+      "stage": "Build",
+      "domain_token": "enablement-operations",
+      "stage_token": "build",
+      "typical_work": "Provisioning",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:enablement-operations.activate",
+      "domain": "Enablement & Operations",
+      "stage": "Activate",
+      "domain_token": "enablement-operations",
+      "stage_token": "activate",
+      "typical_work": "Cut-over",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:enablement-operations.operate",
+      "domain": "Enablement & Operations",
+      "stage": "Operate",
+      "domain_token": "enablement-operations",
+      "stage_token": "operate",
+      "typical_work": "Run & maintain",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:enablement-operations.improve",
+      "domain": "Enablement & Operations",
+      "stage": "Improve",
+      "domain_token": "enablement-operations",
+      "stage_token": "improve",
+      "typical_work": "Quality & incident",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:enablement-operations.retire",
+      "domain": "Enablement & Operations",
+      "stage": "Retire",
+      "domain_token": "enablement-operations",
+      "stage_token": "retire",
+      "typical_work": "Decommission",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:finance-accounting.conceive",
+      "domain": "Finance & Accounting",
+      "stage": "Conceive",
+      "domain_token": "finance-accounting",
+      "stage_token": "conceive",
+      "typical_work": "Business case",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:finance-accounting.design",
+      "domain": "Finance & Accounting",
+      "stage": "Design",
+      "domain_token": "finance-accounting",
+      "stage_token": "design",
+      "typical_work": "Pricing model",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:finance-accounting.build",
+      "domain": "Finance & Accounting",
+      "stage": "Build",
+      "domain_token": "finance-accounting",
+      "stage_token": "build",
+      "typical_work": "Funding",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:finance-accounting.activate",
+      "domain": "Finance & Accounting",
+      "stage": "Activate",
+      "domain_token": "finance-accounting",
+      "stage_token": "activate",
+      "typical_work": "Billing activation",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:finance-accounting.operate",
+      "domain": "Finance & Accounting",
+      "stage": "Operate",
+      "domain_token": "finance-accounting",
+      "stage_token": "operate",
+      "typical_work": "Revenue & cost",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:finance-accounting.improve",
+      "domain": "Finance & Accounting",
+      "stage": "Improve",
+      "domain_token": "finance-accounting",
+      "stage_token": "improve",
+      "typical_work": "Margin analysis",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    },
+    {
+      "id": "ecf:finance-accounting.retire",
+      "domain": "Finance & Accounting",
+      "stage": "Retire",
+      "domain_token": "finance-accounting",
+      "stage_token": "retire",
+      "typical_work": "Write-off",
+      "matrix_url": "https://github.com/technehub-labs/dea-metaframework/blob/main/framework/matrix.md"
+    }
+  ]
+}

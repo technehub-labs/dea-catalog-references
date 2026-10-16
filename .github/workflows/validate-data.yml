@@ -1,0 +1,72 @@
+name: Validate data
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: JSON parse + schema-shape check
+        run: |
+          python3 - <<'PY'
+          import json, sys, pathlib
+          files = [
+            "data/media-types/iana-media-types.json",
+            "data/uri-schemes/iana-uri-schemes.json",
+            "data/ecf-coordinates/coordinates.json",
+          ]
+          for f in files:
+            p = pathlib.Path(f)
+            if not p.exists():
+              print(f"MISSING {f}", file=sys.stderr); sys.exit(1)
+            d = json.loads(p.read_text())
+            if "count" not in d or "records" not in d and "coordinates" not in d:
+              print(f"SHAPE FAIL {f}", file=sys.stderr); sys.exit(1)
+            if d["count"] != len(d.get("records", d.get("coordinates", []))):
+              print(f"COUNT MISMATCH {f}: header={d['count']} actual={len(d.get('records', d.get('coordinates', [])))}", file=sys.stderr); sys.exit(1)
+            print(f"OK {f}: count={d['count']}")
+          PY
+
+      - name: SHA256SUMS verify
+        run: |
+          if [ ! -f data/SHA256SUMS ]; then
+            echo "MISSING data/SHA256SUMS" >&2; exit 1
+          fi
+          cd data && sha256sum --check SHA256SUMS
+
+      - name: HTML pages sanity (49 ECF cells present)
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, sys
+          coords = json.loads(pathlib.Path("data/ecf-coordinates/coordinates.json").read_text())["coordinates"]
+          missing = []
+          for c in coords:
+            p = pathlib.Path(f"ecf/{c['domain_token']}/{c['stage_token']}.html")
+            if not p.exists():
+              missing.append(str(p))
+          if missing:
+            print(f"MISSING HTML pages: {missing}", file=sys.stderr); sys.exit(1)
+          print(f"OK {len(coords)} ECF cell HTML pages present")
+          PY
+
+      - name: En-dash / em-dash sweep (D-004 cardinal rule)
+        run: |
+          if grep -rnP '[\x{2013}\x{2014}\x{2E3B}]' --include='*.md' --include='*.yml' --include='*.html' --include='*.py' --include='*.sh' --include='*.json' . ; then
+            echo "FAILED: en-dash, em-dash, or triple-hyphen present in file contents" >&2; exit 1
+          fi
+          echo "OK: no en-dash, em-dash, or triple-hyphen found"
