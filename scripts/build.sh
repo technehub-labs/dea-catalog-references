@@ -40,7 +40,7 @@ python3 scripts/parse-iana.py
 python3 scripts/parse-ecf.py
 python3 scripts/build-html.py
 
-( cd data && sha256sum media-types/iana-media-types.json uri-schemes/iana-uri-schemes.json ecf-coordinates/coordinates.json ) > data/SHA256SUMS
+( cd data && sha256sum media-types/iana-media-types.json uri-schemes/iana-uri-schemes.json ecf-coordinates/coordinates.json paths.tsv ) > data/SHA256SUMS
 
 python3 scripts/validate-data.py 2>&1 | grep -v "^  warn:" || true  # warnings are upstream data oddities
 python3 scripts/validate-data.py >/dev/null  # the gate
