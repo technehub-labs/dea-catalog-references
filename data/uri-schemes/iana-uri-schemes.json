@@ -1,20 +1,23 @@
 {
   "source": "https://www.iana.org/assignments/uri-schemes/",
+  "registry": "uri-schemes",
   "registry_id": "uri-schemes-1",
   "standard": "RFC 3986 / RFC 7595",
   "snapshot_date": "2026-10-16",
   "count": 451,
   "status_counts": {
-    "Permanent": 99,
+    "Historical": 18,
+    "Permanent": 98,
     "Provisional": 334,
-    "Historical": 18
+    "obsolete": 1
   },
   "records": [
     {
+      "registry": "uri-schemes",
       "name": "aaa",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "Diameter Protocol",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -23,10 +26,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "aaas",
-      "description": "Diameter Protocol with Secure Transport",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Diameter Protocol with Secure Transport",
       "references": [
         {
           "type": "rfc",
@@ -35,10 +39,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "about",
-      "description": "about",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "about",
       "references": [
         {
           "type": "rfc",
@@ -47,10 +52,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "acap",
-      "description": "application configuration access protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "application configuration access protocol",
       "references": [
         {
           "type": "rfc",
@@ -59,10 +65,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "acct",
-      "description": "acct",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "acct",
       "references": [
         {
           "type": "rfc",
@@ -71,10 +78,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "acd",
-      "description": "acd",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "acd",
       "references": [
         {
           "type": "person",
@@ -83,10 +91,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ace",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ace",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -95,10 +104,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "aceap",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "aceap",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -107,10 +117,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "acedp",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "acedp",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -119,10 +130,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "aceep",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "aceep",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -131,10 +143,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "acelp",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "acelp",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -143,10 +156,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "aceup",
-      "description": "aceup",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "aceup",
       "references": [
         {
           "type": "person",
@@ -155,10 +169,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "acr",
-      "description": "acr",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "acr",
       "references": [
         {
           "type": "person",
@@ -167,10 +182,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "adiumxtra",
-      "description": "adiumxtra",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "adiumxtra",
       "references": [
         {
           "type": "person",
@@ -179,10 +195,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "adt",
-      "description": "adt",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "adt",
       "references": [
         {
           "type": "person",
@@ -191,10 +208,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "aet",
-      "description": "aet",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "aet",
       "references": [
         {
           "type": "person",
@@ -203,10 +221,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "afp",
-      "description": "afp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "afp",
       "references": [
         {
           "type": "person",
@@ -215,10 +234,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "afs",
-      "description": "Andrew File System global file names",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "Andrew File System global file names",
       "references": [
         {
           "type": "rfc",
@@ -227,10 +247,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "agtp",
-      "description": "agtp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "agtp",
       "references": [
         {
           "type": "person",
@@ -239,10 +260,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "aim",
-      "description": "aim",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "aim",
       "references": [
         {
           "type": "person",
@@ -251,10 +273,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "alter",
-      "description": "alter",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "alter",
       "references": [
         {
           "type": "draft",
@@ -263,10 +286,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "amss",
-      "description": "amss",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "amss",
       "references": [
         {
           "type": "person",
@@ -275,10 +299,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "android",
-      "description": "android",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "android",
       "references": [
         {
           "type": "person",
@@ -291,10 +316,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "appdata",
-      "description": "appdata",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "appdata",
       "references": [
         {
           "type": "person",
@@ -303,10 +329,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "apt",
-      "description": "apt",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "apt",
       "references": [
         {
           "type": "person",
@@ -315,10 +342,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ar",
-      "description": "ar",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ar",
       "references": [
         {
           "type": "person",
@@ -327,10 +355,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ari",
-      "description": "ari",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ari",
       "references": [
         {
           "type": "draft",
@@ -339,10 +368,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ark",
-      "description": "ark",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ark",
       "references": [
         {
           "type": "person",
@@ -355,10 +385,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ars",
-      "description": "ars",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ars",
       "references": [
         {
           "type": "draft",
@@ -367,10 +398,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "arv",
-      "description": "arv",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "arv",
       "references": [
         {
           "type": "person",
@@ -379,10 +411,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "at",
-      "description": "at \n      (see ",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "at \n      (see [https://www.iana.org/assignments/uri-schemes/expert-notes/at-expert-notes])",
       "references": [
         {
           "type": "person",
@@ -395,10 +428,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "attachment",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "attachment",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -407,10 +441,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "aw",
-      "description": "aw",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "aw",
       "references": [
         {
           "type": "person",
@@ -419,10 +454,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "barion",
-      "description": "barion",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "barion",
       "references": [
         {
           "type": "person",
@@ -431,10 +467,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "bb",
-      "description": "bb",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "bb",
       "references": [
         {
           "type": "person",
@@ -443,10 +480,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "beshare",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "beshare",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -455,10 +493,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "bitcoin",
-      "description": "bitcoin",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "bitcoin",
       "references": [
         {
           "type": "person",
@@ -467,10 +506,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "bitcoincash",
-      "description": "bitcoincash",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "bitcoincash",
       "references": [
         {
           "type": "person",
@@ -479,10 +519,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "bl",
-      "description": "bluetooth (shortened)",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "bluetooth (shortened)",
       "references": [
         {
           "type": "person",
@@ -491,10 +532,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "blob",
-      "description": "blob",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "blob",
       "references": [
         {
           "type": "person",
@@ -507,10 +549,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "bluetooth",
-      "description": "bluetooth",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "bluetooth",
       "references": [
         {
           "type": "person",
@@ -519,10 +562,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "bolo",
-      "description": "bolo",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "bolo",
       "references": [
         {
           "type": "person",
@@ -531,10 +575,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "brid",
-      "description": "brid",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "brid",
       "references": [
         {
           "type": "person",
@@ -551,10 +596,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "browserext",
-      "description": "browserext",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "browserext",
       "references": [
         {
           "type": "person",
@@ -563,10 +609,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "cabal",
-      "description": "cabal",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "cabal",
       "references": [
         {
           "type": "person",
@@ -579,10 +626,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "caip",
-      "description": "caip",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "caip",
       "references": [
         {
           "type": "person",
@@ -591,10 +639,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "calculator",
-      "description": "calculator",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "calculator",
       "references": [
         {
           "type": "person",
@@ -603,10 +652,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "callto",
-      "description": "callto",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "callto",
       "references": [
         {
           "type": "person",
@@ -615,10 +665,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "canactid",
-      "description": "canactid",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "canactid",
       "references": [
         {
           "type": "draft",
@@ -627,10 +678,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "cap",
-      "description": "Calendar Access Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Calendar Access Protocol",
       "references": [
         {
           "type": "rfc",
@@ -639,10 +691,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "cast",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "cast",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -655,10 +708,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "casts",
-      "description": "casts",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "casts",
       "references": [
         {
           "type": "person",
@@ -671,10 +725,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "chrome",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "chrome",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -683,10 +738,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "chrome-extension",
-      "description": "chrome-extension",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "chrome-extension",
       "references": [
         {
           "type": "person",
@@ -695,10 +751,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "cid",
-      "description": "content identifier",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "content identifier",
       "references": [
         {
           "type": "rfc",
@@ -707,10 +764,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "cm",
-      "description": "cm",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "cm",
       "references": [
         {
           "type": "person",
@@ -719,10 +777,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "coap",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "coap",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -731,10 +790,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "coap+tcp",
-      "description": "coap+tcp \n      (see ",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "coap+tcp \n      (see [https://www.iana.org/assignments/uri-schemes/expert-notes/coap-expert-notes])",
       "references": [
         {
           "type": "rfc",
@@ -743,10 +803,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "coap+ws",
-      "description": "coap+ws \n      (see ",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "coap+ws \n      (see [https://www.iana.org/assignments/uri-schemes/expert-notes/coap-expert-notes])",
       "references": [
         {
           "type": "rfc",
@@ -755,10 +816,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "coaps",
-      "description": "coaps",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "coaps",
       "references": [
         {
           "type": "rfc",
@@ -767,10 +829,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "coaps+tcp",
-      "description": "coaps+tcp \n      (see ",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "coaps+tcp \n      (see [https://www.iana.org/assignments/uri-schemes/expert-notes/coap-expert-notes])",
       "references": [
         {
           "type": "rfc",
@@ -779,10 +842,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "coaps+ws",
-      "description": "coaps+ws \n      (see ",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "coaps+ws \n      (see [https://www.iana.org/assignments/uri-schemes/expert-notes/coap-expert-notes])",
       "references": [
         {
           "type": "rfc",
@@ -791,10 +855,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "com-eventbrite-attendee",
-      "description": "com-eventbrite-attendee",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "com-eventbrite-attendee",
       "references": [
         {
           "type": "person",
@@ -803,10 +868,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "content",
-      "description": "content",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "content",
       "references": [
         {
           "type": "person",
@@ -815,10 +881,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "content-type",
-      "description": "content-type",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "content-type",
       "references": [
         {
           "type": "person",
@@ -827,10 +894,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "crid",
-      "description": "TV-Anytime Content Reference Identifier",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "TV-Anytime Content Reference Identifier",
       "references": [
         {
           "type": "rfc",
@@ -839,10 +907,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "cstr",
-      "description": "cstr",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "cstr",
       "references": [
         {
           "type": "person",
@@ -851,10 +920,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "cttps",
-      "description": "cttps",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "cttps",
       "references": [
         {
           "type": "person",
@@ -863,10 +933,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "cvs",
-      "description": "cvs",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "cvs",
       "references": [
         {
           "type": "person",
@@ -875,10 +946,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dab",
-      "description": "dab",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dab",
       "references": [
         {
           "type": "person",
@@ -887,10 +959,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dat",
-      "description": "dat",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dat",
       "references": [
         {
           "type": "person",
@@ -903,10 +976,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "data",
-      "description": "data",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "data",
       "references": [
         {
           "type": "rfc",
@@ -915,10 +989,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dav",
-      "description": "dav",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "dav",
       "references": [
         {
           "type": "rfc",
@@ -927,10 +1002,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dhttp",
-      "description": "dhttp \n      (see ",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dhttp \n      (see [https://www.iana.org/assignments/uri-schemes/expert-notes/dhttp-expert-notes])",
       "references": [
         {
           "type": "person",
@@ -939,10 +1015,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "diaspora",
-      "description": "diaspora",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "diaspora",
       "references": [
         {
           "type": "person",
@@ -951,10 +1028,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dict",
-      "description": "dictionary service protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "dictionary service protocol",
       "references": [
         {
           "type": "rfc",
@@ -963,10 +1041,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "did",
-      "description": "did",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "did",
       "references": [
         {
           "type": "person",
@@ -983,10 +1062,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dilithium3",
-      "description": "dilithium3",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dilithium3",
       "references": [
         {
           "type": "person",
@@ -995,10 +1075,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dis",
-      "description": "dis",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dis",
       "references": [
         {
           "type": "person",
@@ -1007,10 +1088,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dlna-playcontainer",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "dlna-playcontainer",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -1019,10 +1101,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dlna-playsingle",
-      "description": "dlna-playsingle",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dlna-playsingle",
       "references": [
         {
           "type": "person",
@@ -1031,10 +1114,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dnp",
-      "description": "dnp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dnp",
       "references": [
         {
           "type": "person",
@@ -1043,10 +1127,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dns",
-      "description": "Domain Name System",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Domain Name System",
       "references": [
         {
           "type": "rfc",
@@ -1055,10 +1140,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dntp",
-      "description": "dntp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dntp",
       "references": [
         {
           "type": "person",
@@ -1067,10 +1153,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "doi",
-      "description": "doi",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "doi",
       "references": [
         {
           "type": "uri",
@@ -1087,10 +1174,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "donau",
-      "description": "donau",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "donau",
       "references": [
         {
           "type": "draft",
@@ -1099,10 +1187,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dpp",
-      "description": "dpp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dpp",
       "references": [
         {
           "type": "person",
@@ -1115,10 +1204,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "drm",
-      "description": "drm",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "drm",
       "references": [
         {
           "type": "person",
@@ -1127,10 +1217,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "drop",
-      "description": "drop",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "drop",
       "references": [
         {
           "type": "person",
@@ -1139,10 +1230,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dtmi",
-      "description": "dtmi",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dtmi",
       "references": [
         {
           "type": "person",
@@ -1151,10 +1243,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dtn",
-      "description": "DTNRG research and development",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "DTNRG research and development",
       "references": [
         {
           "type": "rfc",
@@ -1163,10 +1256,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dvb",
-      "description": "dvb",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dvb",
       "references": [
         {
           "type": "draft",
@@ -1175,10 +1269,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dvx",
-      "description": "dvx",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dvx",
       "references": [
         {
           "type": "person",
@@ -1187,10 +1282,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "dweb",
-      "description": "dweb",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "dweb",
       "references": [
         {
           "type": "person",
@@ -1203,10 +1299,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ed2k",
-      "description": "ed2k",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ed2k",
       "references": [
         {
           "type": "person",
@@ -1215,10 +1312,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "eid",
-      "description": "eid",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "eid",
       "references": [
         {
           "type": "person",
@@ -1227,10 +1325,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "elsi",
-      "description": "elsi",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "elsi",
       "references": [
         {
           "type": "person",
@@ -1239,10 +1338,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "embedded",
-      "description": "embedded",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "embedded",
       "references": [
         {
           "type": "person",
@@ -1251,10 +1351,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ens",
-      "description": "ens",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ens",
       "references": [
         {
           "type": "person",
@@ -1267,10 +1368,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "esim",
-      "description": "esim",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "esim",
       "references": [
         {
           "type": "person",
@@ -1279,10 +1381,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ethereum",
-      "description": "ethereum",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ethereum",
       "references": [
         {
           "type": "person",
@@ -1295,10 +1398,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "example",
-      "description": "example",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "example",
       "references": [
         {
           "type": "rfc",
@@ -1307,10 +1411,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ez",
-      "description": "ez",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ez",
       "references": [
         {
           "type": "person",
@@ -1319,10 +1424,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "facetime",
-      "description": "facetime",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "facetime",
       "references": [
         {
           "type": "person",
@@ -1331,10 +1437,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "fax",
-      "description": "fax",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "fax",
       "references": [
         {
           "type": "rfc",
@@ -1347,10 +1454,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "feed",
-      "description": "feed",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "feed",
       "references": [
         {
           "type": "person",
@@ -1359,10 +1467,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "feedready",
-      "description": "feedready",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "feedready",
       "references": [
         {
           "type": "person",
@@ -1371,10 +1480,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "fido",
-      "description": "fido",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "fido",
       "references": [
         {
           "type": "person",
@@ -1383,10 +1493,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "file",
-      "description": "Host-specific file names",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Host-specific file names",
       "references": [
         {
           "type": "rfc",
@@ -1395,10 +1506,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "filesystem",
-      "description": "filesystem",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "filesystem",
       "references": [
         {
           "type": "person",
@@ -1411,10 +1523,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "finger",
-      "description": "finger",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "finger",
       "references": [
         {
           "type": "person",
@@ -1423,10 +1536,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "first-run-pen-experience",
-      "description": "first-run-pen-experience",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "first-run-pen-experience",
       "references": [
         {
           "type": "person",
@@ -1435,10 +1549,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "fish",
-      "description": "fish",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "fish",
       "references": [
         {
           "type": "person",
@@ -1447,10 +1562,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "fm",
-      "description": "fm",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "fm",
       "references": [
         {
           "type": "person",
@@ -1459,10 +1575,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ftp",
-      "description": "File Transfer Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "File Transfer Protocol",
       "references": [
         {
           "type": "rfc",
@@ -1471,10 +1588,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "fuchsia-pkg",
-      "description": "fuchsia-pkg",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "fuchsia-pkg",
       "references": [
         {
           "type": "person",
@@ -1487,10 +1605,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "gcx",
-      "description": "gcx",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "gcx",
       "references": [
         {
           "type": "person",
@@ -1499,10 +1618,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "gdsi",
-      "description": "gdsi",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "gdsi",
       "references": [
         {
           "type": "person",
@@ -1511,10 +1631,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "geo",
-      "description": "Geographic Locations",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Geographic Locations",
       "references": [
         {
           "type": "rfc",
@@ -1523,10 +1644,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "gg",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "gg",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -1535,10 +1657,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "git",
-      "description": "git",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "git",
       "references": [
         {
           "type": "person",
@@ -1547,10 +1670,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "gitoid",
-      "description": "gitoid",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "gitoid",
       "references": [
         {
           "type": "person",
@@ -1559,10 +1683,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "gizmoproject",
-      "description": "gizmoproject",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "gizmoproject",
       "references": [
         {
           "type": "person",
@@ -1571,10 +1696,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "go",
-      "description": "go",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "go",
       "references": [
         {
           "type": "rfc",
@@ -1583,10 +1709,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "gopher",
-      "description": "The Gopher Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "The Gopher Protocol",
       "references": [
         {
           "type": "rfc",
@@ -1595,10 +1722,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "graph",
-      "description": "graph",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "graph",
       "references": [
         {
           "type": "person",
@@ -1607,10 +1735,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "grd",
-      "description": "grd",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "grd",
       "references": [
         {
           "type": "person",
@@ -1619,10 +1748,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "gsos",
-      "description": "gsos",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "gsos",
       "references": [
         {
           "type": "person",
@@ -1635,10 +1765,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "gtalk",
-      "description": "gtalk",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "gtalk",
       "references": [
         {
           "type": "person",
@@ -1647,10 +1778,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "h323",
-      "description": "H.323",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "H.323",
       "references": [
         {
           "type": "rfc",
@@ -1659,10 +1791,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ham",
-      "description": "ham",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ham",
       "references": [
         {
           "type": "rfc",
@@ -1671,10 +1804,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "hcap",
-      "description": "hcap",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "hcap",
       "references": [
         {
           "type": "person",
@@ -1683,10 +1817,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "hcp",
-      "description": "hcp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "hcp",
       "references": [
         {
           "type": "person",
@@ -1695,10 +1830,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "hs20",
-      "description": "hs20",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "hs20",
       "references": [
         {
           "type": "person",
@@ -1707,10 +1843,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "http",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "Hypertext Transfer Protocol",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -1719,10 +1856,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "https",
-      "description": "Hypertext Transfer Protocol Secure",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Hypertext Transfer Protocol Secure",
       "references": [
         {
           "type": "rfc",
@@ -1731,10 +1869,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "hxxp",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "hxxp",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "draft",
@@ -1743,10 +1882,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "hxxps",
-      "description": "hxxps",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "hxxps",
       "references": [
         {
           "type": "draft",
@@ -1755,10 +1895,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "hydrazone",
-      "description": "hydrazone",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "hydrazone",
       "references": [
         {
           "type": "person",
@@ -1771,10 +1912,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "hyper",
-      "description": "hyper",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "hyper",
       "references": [
         {
           "type": "person",
@@ -1787,10 +1929,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "i0",
-      "description": "i0",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "i0",
       "references": [
         {
           "type": "person",
@@ -1799,10 +1942,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "iax",
-      "description": "Inter-Asterisk eXchange Version 2",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Inter-Asterisk eXchange Version 2",
       "references": [
         {
           "type": "rfc",
@@ -1811,10 +1955,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ibi",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ibi",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -1823,10 +1968,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ibi-",
-      "description": "ibi-",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ibi-",
       "references": [
         {
           "type": "person",
@@ -1835,10 +1981,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "icap",
-      "description": "Internet Content Adaptation Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Internet Content Adaptation Protocol",
       "references": [
         {
           "type": "rfc",
@@ -1847,10 +1994,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "icon",
-      "description": "icon",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "icon",
       "references": [
         {
           "type": "draft",
@@ -1859,10 +2007,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ilstring",
-      "description": "ilstring",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ilstring",
       "references": [
         {
           "type": "person",
@@ -1875,10 +2024,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "im",
-      "description": "Instant Messaging",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Instant Messaging",
       "references": [
         {
           "type": "rfc",
@@ -1887,10 +2037,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "imap",
-      "description": "internet message access protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "internet message access protocol",
       "references": [
         {
           "type": "rfc",
@@ -1899,10 +2050,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "info",
-      "description": "Information Assets with Identifiers in Public Namespaces. \n      ",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Information Assets with Identifiers in Public Namespaces. \n      [rfc4452] defines an \"info\" registry \n        of public namespaces, which is maintained by NISO and can be accessed \n        from [http://info-uri.info/].",
       "references": [
         {
           "type": "rfc",
@@ -1911,10 +2063,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "interaction",
-      "description": "interaction",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "interaction",
       "references": [
         {
           "type": "person",
@@ -1923,10 +2076,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "iotdisco",
-      "description": "iotdisco",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "iotdisco",
       "references": [
         {
           "type": "person",
@@ -1939,10 +2093,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ipfs",
-      "description": "ipfs",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ipfs",
       "references": [
         {
           "type": "person",
@@ -1955,10 +2110,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ipn",
-      "description": "ipn",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "ipn",
       "references": [
         {
           "type": "rfc",
@@ -1967,10 +2123,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ipns",
-      "description": "ipns",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ipns",
       "references": [
         {
           "type": "person",
@@ -1983,10 +2140,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ipp",
-      "description": "Internet Printing Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Internet Printing Protocol",
       "references": [
         {
           "type": "rfc",
@@ -1995,10 +2153,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ipps",
-      "description": "Internet Printing Protocol over HTTPS",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Internet Printing Protocol over HTTPS",
       "references": [
         {
           "type": "rfc",
@@ -2007,10 +2166,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "iqa",
-      "description": "iqa",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "iqa",
       "references": [
         {
           "type": "draft",
@@ -2019,10 +2179,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "irc",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "irc",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2031,10 +2192,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "irc6",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "irc6",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2043,10 +2205,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ircs",
-      "description": "ircs",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ircs",
       "references": [
         {
           "type": "person",
@@ -2055,10 +2218,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "iris",
-      "description": "Internet Registry Information Service",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Internet Registry Information Service",
       "references": [
         {
           "type": "rfc",
@@ -2067,10 +2231,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "iris.beep",
-      "description": "iris.beep",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "iris.beep",
       "references": [
         {
           "type": "rfc",
@@ -2079,10 +2244,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "iris.lwz",
-      "description": "iris.lwz",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "iris.lwz",
       "references": [
         {
           "type": "rfc",
@@ -2091,10 +2257,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "iris.xpc",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "iris.xpc",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -2103,10 +2270,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "iris.xpcs",
-      "description": "iris.xpcs",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "iris.xpcs",
       "references": [
         {
           "type": "rfc",
@@ -2115,10 +2283,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "isostore",
-      "description": "isostore",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "isostore",
       "references": [
         {
           "type": "person",
@@ -2127,10 +2296,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "itms",
-      "description": "itms",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "itms",
       "references": [
         {
           "type": "person",
@@ -2139,10 +2309,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "jabber",
-      "description": "jabber",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "jabber",
       "references": [
         {
           "type": "person",
@@ -2151,10 +2322,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "jar",
-      "description": "jar",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "jar",
       "references": [
         {
           "type": "person",
@@ -2163,10 +2335,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "jms",
-      "description": "Java Message Service",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "Java Message Service",
       "references": [
         {
           "type": "rfc",
@@ -2175,10 +2348,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "keyparc",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "keyparc",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2187,10 +2361,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "lastfm",
-      "description": "lastfm",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "lastfm",
       "references": [
         {
           "type": "person",
@@ -2199,10 +2374,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "lbry",
-      "description": "lbry",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "lbry",
       "references": [
         {
           "type": "person",
@@ -2211,10 +2387,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ldap",
-      "description": "Lightweight Directory Access Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Lightweight Directory Access Protocol",
       "references": [
         {
           "type": "rfc",
@@ -2223,10 +2400,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ldaps",
-      "description": "ldaps",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ldaps",
       "references": [
         {
           "type": "person",
@@ -2235,10 +2413,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "leaptofrogans",
-      "description": "leaptofrogans",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "leaptofrogans",
       "references": [
         {
           "type": "rfc",
@@ -2247,10 +2426,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "lid",
-      "description": "lid",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "lid",
       "references": [
         {
           "type": "person",
@@ -2259,10 +2439,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "linkid",
-      "description": "linkid",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "linkid",
       "references": [
         {
           "type": "person",
@@ -2271,10 +2452,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "locus",
-      "description": "locus",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "locus",
       "references": [
         {
           "type": "draft",
@@ -2283,10 +2465,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "lorawan",
-      "description": "lorawan",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "lorawan",
       "references": [
         {
           "type": "person",
@@ -2295,10 +2478,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "lpa",
-      "description": "lpa",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "lpa",
       "references": [
         {
           "type": "person",
@@ -2307,10 +2491,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "lvlt",
-      "description": "lvlt",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "lvlt",
       "references": [
         {
           "type": "person",
@@ -2319,10 +2504,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "machineProvisioningProgressReporter",
-      "description": "Windows Autopilot Modern Device Management status updates",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "Windows Autopilot Modern Device Management status updates",
       "references": [
         {
           "type": "person",
@@ -2331,10 +2517,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "magnet",
-      "description": "magnet",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "magnet",
       "references": [
         {
           "type": "person",
@@ -2343,10 +2530,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mailserver",
-      "description": "Access to data available from mail servers",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "Access to data available from mail servers",
       "references": [
         {
           "type": "rfc",
@@ -2355,10 +2543,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mailto",
-      "description": "Electronic mail address",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Electronic mail address",
       "references": [
         {
           "type": "rfc",
@@ -2367,10 +2556,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "maps",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "maps",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2379,10 +2569,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "market",
-      "description": "market",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "market",
       "references": [
         {
           "type": "person",
@@ -2391,10 +2582,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "matrix",
-      "description": "matrix",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "matrix",
       "references": [
         {
           "type": "person",
@@ -2403,10 +2595,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mdoc",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "mdoc",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2415,10 +2608,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mdoc-openid4vp",
-      "description": "mdoc-openid4vp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "mdoc-openid4vp",
       "references": [
         {
           "type": "person",
@@ -2427,10 +2621,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "message",
-      "description": "message",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "message",
       "references": [
         {
           "type": "person",
@@ -2439,10 +2634,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "microsoft.windows.camera",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "microsoft.windows.camera",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2451,10 +2647,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "microsoft.windows.camera.multipicker",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "microsoft.windows.camera.multipicker",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2463,10 +2660,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "microsoft.windows.camera.picker",
-      "description": "microsoft.windows.camera.picker",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "microsoft.windows.camera.picker",
       "references": [
         {
           "type": "person",
@@ -2475,10 +2673,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mid",
-      "description": "message identifier",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "message identifier",
       "references": [
         {
           "type": "rfc",
@@ -2487,10 +2686,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mms",
-      "description": "mms",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "mms",
       "references": [
         {
           "type": "person",
@@ -2499,10 +2699,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "modem",
-      "description": "modem",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "modem",
       "references": [
         {
           "type": "rfc",
@@ -2515,10 +2716,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mongodb",
-      "description": "mongodb",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "mongodb",
       "references": [
         {
           "type": "person",
@@ -2531,10 +2733,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "moz",
-      "description": "moz",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "moz",
       "references": [
         {
           "type": "person",
@@ -2543,10 +2746,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mqtt",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "mqtt",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2555,10 +2759,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mqtts",
-      "description": "mqtts",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "mqtts",
       "references": [
         {
           "type": "person",
@@ -2567,10 +2772,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-access",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-access",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2579,10 +2785,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-appinstaller",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-appinstaller",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2591,10 +2798,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-browser-extension",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-browser-extension",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2603,10 +2811,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-calculator",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-calculator",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2615,10 +2824,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-drive-to",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-drive-to",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2627,10 +2837,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-enrollment",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-enrollment",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2639,10 +2850,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-excel",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-excel",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2651,10 +2863,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-eyecontrolspeech",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-eyecontrolspeech",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2663,10 +2876,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-gamebarservices",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-gamebarservices",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2675,10 +2889,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-gamingoverlay",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-gamingoverlay",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2687,10 +2902,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-getoffice",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-getoffice",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2699,10 +2915,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-help",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-help",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2711,10 +2928,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-infopath",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-infopath",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2723,10 +2941,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-inputapp",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-inputapp",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2735,10 +2954,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-launchremotedesktop",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-launchremotedesktop",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2747,10 +2967,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-lockscreencomponent-config",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-lockscreencomponent-config",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2759,10 +2980,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-media-stream-id",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-media-stream-id",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2771,10 +2993,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-meetnow",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-meetnow",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2783,10 +3006,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-mixedrealitycapture",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-mixedrealitycapture",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2795,10 +3019,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-mobileplans",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-mobileplans",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2807,10 +3032,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-newsandinterests",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-newsandinterests",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2819,10 +3045,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-officeapp",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-officeapp",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2831,10 +3058,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-people",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-people",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2843,10 +3071,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-personacard",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-personacard",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2855,10 +3084,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-powerpoint",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-powerpoint",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2867,10 +3097,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-project",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-project",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2879,10 +3110,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-publisher",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-publisher",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2891,10 +3123,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-recall",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-recall",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2903,10 +3136,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-remotedesktop",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-remotedesktop",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2915,10 +3149,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-remotedesktop-launch",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-remotedesktop-launch",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2927,10 +3162,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-restoretabcompanion",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-restoretabcompanion",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2939,10 +3175,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-screenclip",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-screenclip",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2951,10 +3188,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-screensketch",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-screensketch",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2963,10 +3201,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-search",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-search",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2975,10 +3214,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-search-repair",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-search-repair",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2987,10 +3227,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-secondary-screen-controller",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-secondary-screen-controller",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -2999,10 +3240,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-secondary-screen-setup",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-secondary-screen-setup",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3011,10 +3253,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3023,10 +3266,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-airplanemode",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-airplanemode",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3035,10 +3279,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-bluetooth",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-bluetooth",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3047,10 +3292,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-camera",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-camera",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3059,10 +3305,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-cellular",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-cellular",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3071,10 +3318,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-cloudstorage",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-cloudstorage",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3083,10 +3331,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-connectabledevices",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-connectabledevices",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3095,10 +3344,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-displays-topology",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-displays-topology",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3107,10 +3357,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-emailandaccounts",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-emailandaccounts",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3119,10 +3370,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-language",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-language",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3131,10 +3383,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-location",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-location",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3143,10 +3396,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-lock",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-lock",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3155,10 +3409,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-nfctransactions",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-nfctransactions",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3167,10 +3422,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-notifications",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-notifications",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3179,10 +3435,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-power",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-power",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3191,10 +3448,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-privacy",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-privacy",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3203,10 +3461,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-proximity",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-proximity",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3215,10 +3474,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-screenrotation",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-screenrotation",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3227,10 +3487,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-wifi",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-wifi",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3239,10 +3500,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-settings-workplace",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-settings-workplace",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3251,10 +3513,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-spd",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-spd",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3263,10 +3526,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-stickers",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-stickers",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3275,10 +3539,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-sttoverlay",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-sttoverlay",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3287,10 +3552,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-transit-to",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-transit-to",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3299,10 +3565,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-useractivityset",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-useractivityset",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3311,10 +3578,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-uup",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-uup",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3323,10 +3591,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-virtualtouchpad",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-virtualtouchpad",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3335,10 +3604,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-visio",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-visio",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3347,10 +3617,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-walk-to",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-walk-to",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3359,10 +3630,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-whiteboard",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-whiteboard",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3371,10 +3643,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-whiteboard-cmd",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-whiteboard-cmd",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3383,10 +3656,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-widgetboard",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-widgetboard",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3395,10 +3669,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-widgets",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ms-widgets",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3407,10 +3682,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ms-word",
-      "description": "ms-word",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ms-word",
       "references": [
         {
           "type": "person",
@@ -3419,10 +3695,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "msnim",
-      "description": "msnim",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "msnim",
       "references": [
         {
           "type": "person",
@@ -3431,10 +3708,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "msrp",
-      "description": "Message Session Relay Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Message Session Relay Protocol",
       "references": [
         {
           "type": "rfc",
@@ -3443,10 +3721,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "msrps",
-      "description": "Message Session Relay Protocol Secure",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Message Session Relay Protocol Secure",
       "references": [
         {
           "type": "rfc",
@@ -3459,10 +3738,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mss",
-      "description": "mss",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "mss",
       "references": [
         {
           "type": "person",
@@ -3471,10 +3751,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mt",
-      "description": "Matter protocol on-boarding payloads that are encoded for use in QR Codes and/or NFC Tags",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Matter protocol on-boarding payloads that are encoded for use in QR Codes and/or NFC Tags",
       "references": [
         {
           "type": "person",
@@ -3483,10 +3764,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mtqp",
-      "description": "Message Tracking Query Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Message Tracking Query Protocol",
       "references": [
         {
           "type": "rfc",
@@ -3495,10 +3777,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mtrust",
-      "description": "mtrust",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "mtrust",
       "references": [
         {
           "type": "person",
@@ -3507,10 +3790,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mumble",
-      "description": "mumble",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "mumble",
       "references": [
         {
           "type": "person",
@@ -3519,10 +3803,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mupdate",
-      "description": "Mailbox Update (MUPDATE) Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Mailbox Update (MUPDATE) Protocol",
       "references": [
         {
           "type": "rfc",
@@ -3531,10 +3816,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "musik",
-      "description": "musik",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "musik",
       "references": [
         {
           "type": "person",
@@ -3543,10 +3829,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mvn",
-      "description": "mvn",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "mvn",
       "references": [
         {
           "type": "person",
@@ -3555,10 +3842,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mvrp",
-      "description": "mvrp\n      (see ",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "mvrp\n      (see [https://www.iana.org/assignments/uri-schemes/expert-notes/mvrp-expert-notes])",
       "references": [
         {
           "type": "person",
@@ -3567,10 +3855,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "mvrps",
-      "description": "mvrps\n      (see ",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "mvrps\n      (see [https://www.iana.org/assignments/uri-schemes/expert-notes/mvrps-expert-notes])",
       "references": [
         {
           "type": "person",
@@ -3579,10 +3868,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "news",
-      "description": "USENET news",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "USENET news",
       "references": [
         {
           "type": "rfc",
@@ -3591,10 +3881,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "nfs",
-      "description": "network file system protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "network file system protocol",
       "references": [
         {
           "type": "rfc",
@@ -3603,10 +3894,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ni",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "ni",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -3615,10 +3907,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "nih",
-      "description": "nih",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "nih",
       "references": [
         {
           "type": "rfc",
@@ -3627,10 +3920,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "nntp",
-      "description": "USENET news using NNTP access",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "USENET news using NNTP access",
       "references": [
         {
           "type": "rfc",
@@ -3639,10 +3933,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "nostr",
-      "description": "nostr",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "nostr",
       "references": [
         {
           "type": "person",
@@ -3655,10 +3950,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "notes",
-      "description": "notes",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "notes",
       "references": [
         {
           "type": "draft",
@@ -3667,10 +3963,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "npamp",
-      "description": "npamp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "npamp",
       "references": [
         {
           "type": "draft",
@@ -3679,10 +3976,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "num",
-      "description": "Namespace Utility Modules",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "Namespace Utility Modules",
       "references": [
         {
           "type": "person",
@@ -3695,10 +3993,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ocf",
-      "description": "ocf",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ocf",
       "references": [
         {
           "type": "person",
@@ -3707,10 +4006,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "oid",
-      "description": "oid",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "oid",
       "references": [
         {
           "type": "draft",
@@ -3719,10 +4019,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "onenote",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "onenote",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3731,10 +4032,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "onenote-cmd",
-      "description": "onenote-cmd",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "onenote-cmd",
       "references": [
         {
           "type": "person",
@@ -3743,10 +4045,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "opaquelocktoken",
-      "description": "opaquelocktokent",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "opaquelocktokent",
       "references": [
         {
           "type": "rfc",
@@ -3755,10 +4058,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "openid",
-      "description": "OpenID Connect",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "OpenID Connect",
       "references": [
         {
           "type": "person",
@@ -3771,10 +4075,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "openpgp4fpr",
-      "description": "openpgp4fpr",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "openpgp4fpr",
       "references": [
         {
           "type": "person",
@@ -3783,10 +4088,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "opns",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "opns",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3795,10 +4101,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ord",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "ord",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3807,10 +4114,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ordmail",
-      "description": "ordmail",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ordmail",
       "references": [
         {
           "type": "person",
@@ -3819,10 +4127,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "otpauth",
-      "description": "otpauth",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "otpauth",
       "references": [
         {
           "type": "person",
@@ -3835,10 +4144,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "p1",
-      "description": "p1",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "p1",
       "references": [
         {
           "type": "person",
@@ -3847,10 +4157,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "pack",
-      "description": "pack",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "pack",
       "references": [
         {
           "type": "draft",
@@ -3859,10 +4170,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "palm",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "palm",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3871,10 +4183,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "paparazzi",
-      "description": "paparazzi",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "paparazzi",
       "references": [
         {
           "type": "person",
@@ -3883,10 +4196,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "payment",
-      "description": "payment",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "payment",
       "references": [
         {
           "type": "person",
@@ -3895,10 +4209,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "payto",
-      "description": "payto",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "payto",
       "references": [
         {
           "type": "rfc",
@@ -3907,10 +4222,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "pkcs11",
-      "description": "PKCS#11",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "PKCS#11",
       "references": [
         {
           "type": "rfc",
@@ -3919,10 +4235,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "pkg",
-      "description": "pkg",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "pkg",
       "references": [
         {
           "type": "person",
@@ -3931,10 +4248,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "platform",
-      "description": "platform",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "platform",
       "references": [
         {
           "type": "person",
@@ -3943,10 +4261,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "pop",
-      "description": "Post Office Protocol v3",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Post Office Protocol v3",
       "references": [
         {
           "type": "rfc",
@@ -3955,10 +4274,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "pres",
-      "description": "Presence",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Presence",
       "references": [
         {
           "type": "rfc",
@@ -3967,10 +4287,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "prospero",
-      "description": "Prospero Directory Service",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "Prospero Directory Service",
       "references": [
         {
           "type": "rfc",
@@ -3979,10 +4300,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "proxy",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "proxy",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -3991,10 +4313,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "psyc",
-      "description": "psyc",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "psyc",
       "references": [
         {
           "type": "person",
@@ -4003,10 +4326,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "pttp",
-      "description": "pttp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "pttp",
       "references": [
         {
           "type": "person",
@@ -4027,10 +4351,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "pwid",
-      "description": "pwid",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "pwid",
       "references": [
         {
           "type": "person",
@@ -4039,10 +4364,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "qb",
-      "description": "qb",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "qb",
       "references": [
         {
           "type": "person",
@@ -4051,10 +4377,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "query",
-      "description": "query",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "query",
       "references": [
         {
           "type": "person",
@@ -4063,10 +4390,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "quic-transport",
-      "description": "quic-transport",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "quic-transport",
       "references": [
         {
           "type": "draft",
@@ -4075,10 +4403,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "redis",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "redis",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -4087,10 +4416,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "rediss",
-      "description": "rediss",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "rediss",
       "references": [
         {
           "type": "person",
@@ -4099,10 +4429,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "reload",
-      "description": "reload",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "reload",
       "references": [
         {
           "type": "rfc",
@@ -4111,10 +4442,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "res",
-      "description": "res",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "res",
       "references": [
         {
           "type": "person",
@@ -4123,10 +4455,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "resource",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "resource",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -4135,10 +4468,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "rmi",
-      "description": "rmi",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "rmi",
       "references": [
         {
           "type": "person",
@@ -4147,10 +4481,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "rsync",
-      "description": "rsync",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "rsync",
       "references": [
         {
           "type": "rfc",
@@ -4159,10 +4494,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "rtmfp",
-      "description": "rtmfp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "rtmfp",
       "references": [
         {
           "type": "rfc",
@@ -4171,10 +4507,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "rtmp",
-      "description": "rtmp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "rtmp",
       "references": [
         {
           "type": "person",
@@ -4183,10 +4520,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "rtsp",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "Real-Time Streaming Protocol (RTSP)",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -4199,10 +4537,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "rtsps",
-      "description": "Real-Time Streaming Protocol (RTSP) over TLS",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Real-Time Streaming Protocol (RTSP) over TLS",
       "references": [
         {
           "type": "rfc",
@@ -4215,10 +4554,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "rtspu",
-      "description": "Real-Time Streaming Protocol (RTSP) over unreliable datagram transport",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Real-Time Streaming Protocol (RTSP) over unreliable datagram transport",
       "references": [
         {
           "type": "rfc",
@@ -4227,10 +4567,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "rttp",
-      "description": "rttp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "rttp",
       "references": [
         {
           "type": "draft",
@@ -4239,10 +4580,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "sarif",
-      "description": "sarif",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "sarif",
       "references": [
         {
           "type": "person",
@@ -4259,10 +4601,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "secondlife",
-      "description": "query",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "query",
       "references": [
         {
           "type": "person",
@@ -4271,10 +4614,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "secret-token",
-      "description": "secret-token",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "secret-token",
       "references": [
         {
           "type": "rfc",
@@ -4283,10 +4627,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "seki",
-      "description": "seki",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "seki",
       "references": [
         {
           "type": "person",
@@ -4295,10 +4640,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "service",
-      "description": "service location",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "service location",
       "references": [
         {
           "type": "rfc",
@@ -4307,10 +4653,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "session",
-      "description": "session",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "session",
       "references": [
         {
           "type": "rfc",
@@ -4319,10 +4666,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "sftp",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "query",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -4331,10 +4679,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "sgn",
-      "description": "sgn",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "sgn",
       "references": [
         {
           "type": "person",
@@ -4343,10 +4692,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "shc",
-      "description": "shc",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "shc",
       "references": [
         {
           "type": "person",
@@ -4355,10 +4705,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "shelter",
-      "description": "shelter",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "shelter",
       "references": [
         {
           "type": "person",
@@ -4367,10 +4718,12 @@
       ]
     },
     {
-      "name": "shttp (OBSOLETE)",
-      "description": "Secure Hypertext Transfer Protocol",
-      "status": "Permanent",
+      "registry": "uri-schemes",
+      "name": "shttp",
+      "status": "obsolete",
       "type": "uri-scheme",
+      "annotation": "OBSOLETE",
+      "description": "Secure Hypertext Transfer Protocol",
       "references": [
         {
           "type": "rfc",
@@ -4383,10 +4736,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "sieve",
-      "description": "ManageSieve Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "ManageSieve Protocol",
       "references": [
         {
           "type": "rfc",
@@ -4395,10 +4749,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "simpleledger",
-      "description": "simpleledger",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "simpleledger",
       "references": [
         {
           "type": "person",
@@ -4407,10 +4762,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "simplex",
-      "description": "simplex",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "simplex",
       "references": [
         {
           "type": "person",
@@ -4419,10 +4775,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "sip",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "session initiation protocol",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -4431,10 +4788,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "sips",
-      "description": "secure session initiation protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "secure session initiation protocol",
       "references": [
         {
           "type": "rfc",
@@ -4443,10 +4801,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "skype",
-      "description": "skype",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "skype",
       "references": [
         {
           "type": "person",
@@ -4455,10 +4814,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "smb",
-      "description": "smb",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "smb",
       "references": [
         {
           "type": "person",
@@ -4467,10 +4827,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "smp",
-      "description": "smp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "smp",
       "references": [
         {
           "type": "person",
@@ -4479,10 +4840,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "sms",
-      "description": "Short Message Service",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Short Message Service",
       "references": [
         {
           "type": "rfc",
@@ -4491,10 +4853,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "smtp",
-      "description": "smtp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "smtp",
       "references": [
         {
           "type": "draft",
@@ -4503,10 +4866,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "snews",
-      "description": "NNTP over SSL/TLS",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "NNTP over SSL/TLS",
       "references": [
         {
           "type": "rfc",
@@ -4515,10 +4879,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "snmp",
-      "description": "Simple Network Management Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Simple Network Management Protocol",
       "references": [
         {
           "type": "rfc",
@@ -4527,10 +4892,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "sns",
-      "description": "sns",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "sns",
       "references": [
         {
           "type": "person",
@@ -4539,10 +4905,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "soap.beep",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "soap.beep",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -4551,10 +4918,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "soap.beeps",
-      "description": "soap.beeps",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "soap.beeps",
       "references": [
         {
           "type": "rfc",
@@ -4563,10 +4931,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "soldat",
-      "description": "soldat",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "soldat",
       "references": [
         {
           "type": "person",
@@ -4575,10 +4944,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "spacify",
-      "description": "spacify",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "spacify",
       "references": [
         {
           "type": "person",
@@ -4587,10 +4957,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "spiffe",
-      "description": "spiffe",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "spiffe",
       "references": [
         {
           "type": "person",
@@ -4599,10 +4970,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "spotify",
-      "description": "spotify",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "spotify",
       "references": [
         {
           "type": "person",
@@ -4611,10 +4983,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ssb",
-      "description": "ssb",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ssb",
       "references": [
         {
           "type": "person",
@@ -4627,10 +5000,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ssh",
-      "description": "ssh",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ssh",
       "references": [
         {
           "type": "person",
@@ -4639,10 +5013,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "sss",
-      "description": "sss",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "sss",
       "references": [
         {
           "type": "person",
@@ -4651,10 +5026,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "starknet",
-      "description": "starknet",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "starknet",
       "references": [
         {
           "type": "person",
@@ -4663,10 +5039,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "steam",
-      "description": "steam",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "steam",
       "references": [
         {
           "type": "person",
@@ -4675,10 +5052,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "stun",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "stun",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -4687,10 +5065,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "stuns",
-      "description": "stuns",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "stuns",
       "references": [
         {
           "type": "rfc",
@@ -4699,10 +5078,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "submit",
-      "description": "submit",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "submit",
       "references": [
         {
           "type": "draft",
@@ -4711,10 +5091,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "svn",
-      "description": "svn",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "svn",
       "references": [
         {
           "type": "person",
@@ -4723,10 +5104,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "swh",
-      "description": "swh",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "swh",
       "references": [
         {
           "type": "person",
@@ -4739,10 +5121,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "swid",
-      "description": "swid (see ",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "swid (see [https://www.iana.org/assignments/uri-schemes/expert-notes/swid-expert-notes])",
       "references": [
         {
           "type": "rfc",
@@ -4751,10 +5134,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "swidpath",
-      "description": "swidpath (see ",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "swidpath (see [https://www.iana.org/assignments/uri-schemes/expert-notes/swidpath-expert-notes])",
       "references": [
         {
           "type": "rfc",
@@ -4763,10 +5147,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "tag",
-      "description": "tag",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "tag",
       "references": [
         {
           "type": "rfc",
@@ -4775,10 +5160,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "taler",
-      "description": "taler",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "taler",
       "references": [
         {
           "type": "draft",
@@ -4787,10 +5173,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "tcxp",
-      "description": "tcxp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "tcxp",
       "references": [
         {
           "type": "uri",
@@ -4803,10 +5190,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "teamspeak",
-      "description": "teamspeak",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "teamspeak",
       "references": [
         {
           "type": "person",
@@ -4815,10 +5203,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "teapot",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "teapot",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -4827,10 +5216,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "teapots",
-      "description": "teapots",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "teapots",
       "references": [
         {
           "type": "person",
@@ -4839,10 +5229,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "tel",
-      "description": "telephone",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "telephone",
       "references": [
         {
           "type": "rfc",
@@ -4855,10 +5246,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "teliaeid",
-      "description": "teliaeid",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "teliaeid",
       "references": [
         {
           "type": "person",
@@ -4867,10 +5259,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "telnet",
-      "description": "Reference to interactive sessions",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Reference to interactive sessions",
       "references": [
         {
           "type": "rfc",
@@ -4879,10 +5272,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "tftp",
-      "description": "Trivial File Transfer Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Trivial File Transfer Protocol",
       "references": [
         {
           "type": "rfc",
@@ -4891,10 +5285,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "things",
-      "description": "things",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "things",
       "references": [
         {
           "type": "person",
@@ -4903,10 +5298,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "thismessage",
-      "description": "multipart/related relative reference resolution",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "multipart/related relative reference resolution",
       "references": [
         {
           "type": "rfc",
@@ -4915,10 +5311,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "thzp",
-      "description": "thzp",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "thzp",
       "references": [
         {
           "type": "person",
@@ -4927,10 +5324,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "tii",
-      "description": "tii",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "tii",
       "references": [
         {
           "type": "person",
@@ -4939,10 +5337,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "tip",
-      "description": "Transaction Internet Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Transaction Internet Protocol",
       "references": [
         {
           "type": "rfc",
@@ -4951,10 +5350,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "tn3270",
-      "description": "Interactive 3270 emulation sessions",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Interactive 3270 emulation sessions",
       "references": [
         {
           "type": "rfc",
@@ -4963,10 +5363,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "tool",
-      "description": "tool",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "tool",
       "references": [
         {
           "type": "person",
@@ -4975,10 +5376,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "tttps",
-      "description": "TLS TimeToken Secure Protocol (TTTPS). A cryptographic \ntemporal ordering proof protocol augmenting TLS 1.3 with Proof-of-Time records.",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "TLS TimeToken Secure Protocol (TTTPS). A cryptographic \ntemporal ordering proof protocol augmenting TLS 1.3 with Proof-of-Time records.",
       "references": [
         {
           "type": "draft",
@@ -4987,10 +5389,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "turn",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "turn",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -4999,10 +5402,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "turns",
-      "description": "turns",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "turns",
       "references": [
         {
           "type": "rfc",
@@ -5011,10 +5415,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "tv",
-      "description": "TV Broadcasts",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "TV Broadcasts",
       "references": [
         {
           "type": "rfc",
@@ -5023,10 +5428,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "udp",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "udp",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -5035,10 +5441,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "unreal",
-      "description": "unreal",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "unreal",
       "references": [
         {
           "type": "person",
@@ -5047,10 +5454,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "upn",
-      "description": "upn",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "upn",
       "references": [
         {
           "type": "person",
@@ -5059,10 +5467,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "upt",
-      "description": "upt",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "upt",
       "references": [
         {
           "type": "person",
@@ -5071,10 +5480,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "urn",
-      "description": "Uniform Resource Names",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Uniform Resource Names",
       "references": [
         {
           "type": "rfc",
@@ -5087,10 +5497,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ust",
-      "description": "ust",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ust",
       "references": [
         {
           "type": "person",
@@ -5107,10 +5518,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ut2004",
-      "description": "ut2004",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ut2004",
       "references": [
         {
           "type": "person",
@@ -5119,10 +5531,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "uuaid",
-      "description": "uuaid",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "uuaid",
       "references": [
         {
           "type": "person",
@@ -5135,10 +5548,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "uuid-in-package",
-      "description": "uuid-in-package",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "uuid-in-package",
       "references": [
         {
           "type": "person",
@@ -5147,10 +5561,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "v-event",
-      "description": "v-event",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "v-event",
       "references": [
         {
           "type": "draft",
@@ -5159,10 +5574,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "vemmi",
-      "description": "versatile multimedia interface",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "versatile multimedia interface",
       "references": [
         {
           "type": "rfc",
@@ -5171,10 +5587,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ventrilo",
-      "description": "ventrilo",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ventrilo",
       "references": [
         {
           "type": "person",
@@ -5183,10 +5600,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ves",
-      "description": "ves",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ves",
       "references": [
         {
           "type": "person",
@@ -5195,10 +5613,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "videotex",
-      "description": "videotex",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "videotex",
       "references": [
         {
           "type": "draft",
@@ -5215,10 +5634,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "view-source",
-      "description": "view-source",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "view-source",
       "references": [
         {
           "type": "person",
@@ -5227,10 +5647,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "vnc",
-      "description": "Remote Framebuffer Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Remote Framebuffer Protocol",
       "references": [
         {
           "type": "rfc",
@@ -5239,10 +5660,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "vscode",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "vscode",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -5251,10 +5673,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "vscode-insiders",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "vscode-insiders",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -5263,10 +5686,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "vsls",
-      "description": "vsls",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "vsls",
       "references": [
         {
           "type": "person",
@@ -5275,10 +5699,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "w3",
-      "description": "w3 \n      (see ",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "w3 \n      (see [https://www.iana.org/assignments/uri-schemes/expert-notes/w3-expert-notes])",
       "references": [
         {
           "type": "person",
@@ -5287,10 +5712,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "wais",
-      "description": "Wide Area Information Servers",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "Wide Area Information Servers",
       "references": [
         {
           "type": "rfc",
@@ -5299,10 +5725,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "wasm",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "wasm",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -5311,10 +5738,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "wasm-js",
-      "description": "wasm-js",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "wasm-js",
       "references": [
         {
           "type": "person",
@@ -5323,10 +5751,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "wcr",
-      "description": "wcr",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "wcr",
       "references": [
         {
           "type": "person",
@@ -5335,10 +5764,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "web+ap",
-      "description": "web+ap",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "web+ap",
       "references": [
         {
           "type": "person",
@@ -5347,10 +5777,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "web+interaction",
-      "description": "web+interaction",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "web+interaction",
       "references": [
         {
           "type": "person",
@@ -5359,10 +5790,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "web3",
-      "description": "web3",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "web3",
       "references": [
         {
           "type": "person",
@@ -5371,10 +5803,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "webcal",
-      "description": "webcal",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "webcal",
       "references": [
         {
           "type": "person",
@@ -5383,10 +5816,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "wifi",
-      "description": "wifi",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "wifi",
       "references": [
         {
           "type": "person",
@@ -5399,10 +5833,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "wpid",
-      "description": "wpid",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "wpid",
       "references": [
         {
           "type": "person",
@@ -5411,10 +5846,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ws",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "WebSocket connections",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -5423,10 +5859,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "wss",
-      "description": "Encrypted WebSocket connections",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Encrypted WebSocket connections",
       "references": [
         {
           "type": "rfc",
@@ -5435,10 +5872,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "wtai",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "wtai",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -5447,10 +5885,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "wyciwyg",
-      "description": "wyciwyg",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "wyciwyg",
       "references": [
         {
           "type": "person",
@@ -5459,10 +5898,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "xcompute",
-      "description": "xcompute",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "xcompute",
       "references": [
         {
           "type": "person",
@@ -5471,10 +5911,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "xcon",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "xcon",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -5483,10 +5924,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "xcon-userid",
-      "description": "xcon-userid",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "xcon-userid",
       "references": [
         {
           "type": "rfc",
@@ -5495,10 +5937,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "xfire",
-      "description": "xfire",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "xfire",
       "references": [
         {
           "type": "person",
@@ -5507,10 +5950,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "xftp",
-      "description": "xftp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "xftp",
       "references": [
         {
           "type": "person",
@@ -5519,10 +5963,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "xmlrpc.beep",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "xmlrpc.beep",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -5531,10 +5976,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "xmlrpc.beeps",
-      "description": "xmlrpc.beeps",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "xmlrpc.beeps",
       "references": [
         {
           "type": "rfc",
@@ -5543,10 +5989,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "xmpp",
-      "description": "Extensible Messaging and Presence Protocol",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Extensible Messaging and Presence Protocol",
       "references": [
         {
           "type": "rfc",
@@ -5555,10 +6002,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "xrcp",
-      "description": "xrcp",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "xrcp",
       "references": [
         {
           "type": "person",
@@ -5567,10 +6015,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "xri",
+      "status": "Provisional",
+      "type": "uri-scheme",
       "description": "xri",
-      "status": "Provisional",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "person",
@@ -5579,10 +6028,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ymsgr",
-      "description": "ymsgr",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ymsgr",
       "references": [
         {
           "type": "person",
@@ -5591,10 +6041,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "z39.50",
-      "description": "Z39.50 information access",
       "status": "Historical",
       "type": "uri-scheme",
+      "description": "Z39.50 information access",
       "references": [
         {
           "type": "rfc",
@@ -5607,10 +6058,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "z39.50r",
+      "status": "Permanent",
+      "type": "uri-scheme",
       "description": "Z39.50 Retrieval",
-      "status": "Permanent",
-      "type": "uri-scheme",
       "references": [
         {
           "type": "rfc",
@@ -5619,10 +6071,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "z39.50s",
-      "description": "Z39.50 Session",
       "status": "Permanent",
       "type": "uri-scheme",
+      "description": "Z39.50 Session",
       "references": [
         {
           "type": "rfc",
@@ -5631,10 +6084,11 @@
       ]
     },
     {
+      "registry": "uri-schemes",
       "name": "ztdnaid",
-      "description": "ztdnaid",
       "status": "Provisional",
       "type": "uri-scheme",
+      "description": "ztdnaid",
       "references": [
         {
           "type": "person",
