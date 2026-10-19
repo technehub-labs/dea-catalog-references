@@ -21,48 +21,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: JSON parse + schema-shape check
-        run: |
-          python3 - <<'PY'
-          import json, sys, pathlib
-          files = [
-            "data/media-types/iana-media-types.json",
-            "data/uri-schemes/iana-uri-schemes.json",
-            "data/ecf-coordinates/coordinates.json",
-          ]
-          for f in files:
-            p = pathlib.Path(f)
-            if not p.exists():
-              print(f"MISSING {f}", file=sys.stderr); sys.exit(1)
-            d = json.loads(p.read_text())
-            if "count" not in d or "records" not in d and "coordinates" not in d:
-              print(f"SHAPE FAIL {f}", file=sys.stderr); sys.exit(1)
-            if d["count"] != len(d.get("records", d.get("coordinates", []))):
-              print(f"COUNT MISMATCH {f}: header={d['count']} actual={len(d.get('records', d.get('coordinates', [])))}", file=sys.stderr); sys.exit(1)
-            print(f"OK {f}: count={d['count']}")
-          PY
-
-      - name: SHA256SUMS verify
-        run: |
-          if [ ! -f data/SHA256SUMS ]; then
-            echo "MISSING data/SHA256SUMS" >&2; exit 1
-          fi
-          cd data && sha256sum --check SHA256SUMS
-
-      - name: HTML pages sanity (49 ECF cells present)
-        run: |
-          python3 - <<'PY'
-          import json, pathlib, sys
-          coords = json.loads(pathlib.Path("data/ecf-coordinates/coordinates.json").read_text())["coordinates"]
-          missing = []
-          for c in coords:
-            p = pathlib.Path(f"ecf/{c['domain_token']}/{c['stage_token']}.html")
-            if not p.exists():
-              missing.append(str(p))
-          if missing:
-            print(f"MISSING HTML pages: {missing}", file=sys.stderr); sys.exit(1)
-          print(f"OK {len(coords)} ECF cell HTML pages present")
-          PY
+      - name: Run invariants gate (validate-data.py)
+        run: python3 scripts/validate-data.py
 
       - name: En-dash / em-dash sweep (D-004 cardinal rule)
         run: |
@@ -70,3 +30,12 @@ jobs:
             echo "FAILED: en-dash, em-dash, or triple-hyphen present in file contents" >&2; exit 1
           fi
           echo "OK: no en-dash, em-dash, or triple-hyphen found"
+
+      - name: Semi-colon-trio sweep (D-005 cardinal rule)
+        run: |
+          matches=$(grep -rnF ';;;' --include='*.md' --include='*.html' --include='*.py' --include='*.sh' --include='*.json' --exclude-dir='.github' . || true)
+          # Also exclude the validator/wave files themselves, which embed the literal triple-semicolon as data, not as prose
+          if echo "$matches" | grep -v '^./scripts/validate-data.py:' | grep . ; then
+            echo "FAILED: triple-semicolon present in non-script files" >&2; exit 1
+          fi
+          echo "OK: no triple-semicolon in source files"
