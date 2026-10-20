@@ -22,9 +22,10 @@ The mirrors are deterministic, hash-audited, and reproducible from the source XM
 
 - **Slice 0 (2026-10-16, sealed PR #5)**: scaffold + data + static landing pages (list-level).
 - **Slice 1 (PR #1, sealed 2026-10-19)**: per-record landing pages. The mirror's data model is corrected to canonical `name = type/subtype` (was: bare subtype suffix; lost 61 records), annotations (`OBSOLETE` / `OBSOLETED` / `DEPRECATED`) are split into their own field, `<xref>` text is fully expanded in names and descriptions, the `template` field is now populated, and 17 records carry an explicit `superseded_by` link. Result: 2,366 media-type per-record pages + 10 per-type listings + 451 URI-scheme per-record pages, served extensionless under `/media-types/<type>/<subtype>` and `/uri-schemes/<scheme>`. Also: CI gate upgraded from JSON-shape-only to a real invariant suite (`scripts/validate-data.py`).
-- **Slice 2 (this PR, Path B-1)**: the dereferencing layer at `/dea/<path>`. 2,817 redirect shims (one per canonical reference identifier), backed by a machine-readable `data/paths.tsv` (2,817 rows of `path<TAB>target`). Each shim `<meta http-equiv=refresh>`-es to the corresponding per-record HTML in 0 ms, with a `<link rel=canonical>` so crawlers treat the target as authoritative. Zero ops, no NS migration; Path B-2 (Cloudflare Workers + R2) deferred until the CF plan is ready.
-- **Slice 3 (deferred)**: AAAA records for `lists.technehub.com` (tracked on Kanboard card #411, deferred).
-- **Slice 4 (deferred)**: Path B-2 dereferencing API (Cloudflare Workers + R2 + NS migration; tracked on parent card #377, deferred until Path B-1 is in use).
+- **Slice 2 (PR #2, sealed 2026-10-20)**: Path B-1 static redirect layer at `/dea/<path>`. 2,817 redirect shims + `data/paths.tsv` machine catalogue + 1 master `/dea/` index page + validator gate. Zero ops, no NS migration.
+- **Slice 3 (this PR)**: Licensing + personal-data hygiene + documented Legitimate-Interest Assessment. The IANA Joint Statement dedicates the Protocol Registries to CC0 1.0; the parser now redacts every `<xref type="person">` data field to a deterministic opaque token (salt = `openDEA-catalog-refs-v1`, constant + documented), preserving the structural contact signal via a new `references_count_by_type` aggregate stat. New: `docs/LICENSING-AND-LIA.md` (long form) + `licensing.html` (human surface, linked from `index.html`). 13 validator assertions (was 12).
+- **Slice 4 (deferred)**: AAAA records for `lists.technehub.com` (tracked on Kanboard card #411, deferred).
+- **Slice 5 (deferred)**: Path B-2 dereferencing API (Cloudflare Workers + R2 + NS migration; tracked on parent card #377, deferred until Path B-1 is in use).
 
 ## Entity Definition table
 
@@ -95,9 +96,11 @@ This catalog sits **below** the L1 OpenDEA catalogs and **adjacent to** the ECF 
 | |  +- _paths.py                  Generator + validator helpers for the /dea/<path> redirect surface (Path B-1).
 | |  +- build-html.py               Generate per-record + index landing pages + /dea/ redirect shims + paths.tsv from JSON mirrors.
 | |  +- validate-data.py            Assert data invariants + per-record page coverage + SHA256SUMS match.
-| +- docs/
+|  +- docs/
 | |  +- FOUNDATIONS.md              Methodology-first tenets + decision-points register.
 | |  +- DATA-PROVENANCE.md          Provenance + record-schema doc for each mirror.
+| |  +- LICENSING-AND-LIA.md       CC0 1.0 grant + documented Legitimate-Interest Assessment for the personal-name redaction step.
++- licensing.html                  CC0 + LIA summary on the public surface.
 | +- .github/
 |    +- workflows/
 |       +- pages-build-deploy.yml   GitHub Pages deploy on push to main.
@@ -110,7 +113,8 @@ This catalog sits **below** the L1 OpenDEA catalogs and **adjacent to** the ECF 
 |---|---|---|---|
 | Slice 0 | 2026-10-16 | Scaffold + data + list-level landing pages | Kanban card #377 |
 | Slice 1 | 2026-10-19 | Per-record landing pages + IANA data model correctness fix (canonical `name`, annotation split, xref expansion, template populated, superseded_by link). 2,366 + 451 + 49 + 10 + 1 + 1 = 2,878 HTML files. | Kanban card #524 |
-| Slice 2 (Path B-1) | 2026-10-20 | Static `/dea/<path>` redirect surface (2,817 shims + `data/paths.tsv` + 1 master `/dea/` index page + validator gate). Zero ops, no NS migration. | Kanban card #525 |
+| 2 (Path B-1) | 2026-10-20 | Static `/dea/<path>` redirect surface (2,817 shims + `data/paths.tsv` + 1 master `/dea/` index page + validator gate). Zero ops, no NS migration. | Kanban card #525 |
+| 3 | 2026-10-20 | Personal-data hygiene + documented LIA. Personal-name `<xref type="person">` data redacted at parse time to a deterministic opaque token; salt = `openDEA-catalog-refs-v1` (constant, documented). `references_count_by_type` aggregate stat preserves the structural signal. New: `docs/LICENSING-AND-LIA.md`, `licensing.html` (human surface, linked from `index.html`). 13 validator assertions (was 12). | Kanban card #526 |
 
 ## Public surface
 
@@ -125,4 +129,5 @@ This catalog sits **below** the L1 OpenDEA catalogs and **adjacent to** the ECF 
 - Path resolver: <https://lists.technehub.com/dea/{path}> (e.g. `/dea/application/json`, `/dea/https`; meta-refreshes to the per-record page in 0 ms)
 - Path catalogue (TSV): <https://lists.technehub.com/data/paths.tsv> (one row per canonical ref; machine surface for the resolver)
 - Path B-1 master: <https://lists.technehub.com/dea/> (explains the resolver + links to a few examples)
+- Licensing &amp; LIA: <https://lists.technehub.com/licensing.html> (CC0 1.0 on the data + documented Legitimate-Interest Assessment under GDPR Art. 6(1)(f))
 - Per-cell pages: <https://lists.technehub.com/ecf/{domain-token}/{stage-token}.html>

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Licensing &amp; Legitimate-Interest Assessment - OpenDEA Reference Registry</title>
+<meta name="description" content="Licensing posture for the OpenDEA reference registry on lists.technehub.com. IANA Joint Statement on Protocol Registries, CC0 1.0, and documented Legitimate-Interest Assessment for the personal-name redaction step.">
+<style>
+:root { color-scheme: light dark; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; max-width: 60rem; margin: 2rem auto; padding: 0 1.5rem; line-height: 1.6; }
+nav.breadcrumb { font-size: 0.85rem; color: #666; margin-bottom: 0.75rem; }
+nav.breadcrumb a { color: inherit; text-decoration: underline; }
+h1 { font-size: 1.7rem; margin-top: 1.5rem; }
+h2 { font-size: 1.25rem; margin-top: 2rem; border-bottom: 1px solid #eee; padding-bottom: 0.3rem; }
+h3 { font-size: 1.05rem; margin-top: 1.3rem; }
+code, pre { background: #f4f4f4; padding: 0.1em 0.3em; border-radius: 0.2em; font-size: 0.95em; }
+pre { padding: 0.75rem 1rem; overflow-x: auto; }
+blockquote { border-left: 3px solid #ccc; margin: 1rem 0; padding: 0.3rem 1rem; color: #444; background: #fafafa; }
+table { border-collapse: collapse; width: 100%; margin-top: 1rem; font-size: 0.9rem; }
+th, td { padding: 0.4rem 0.6rem; border-bottom: 1px solid #eee; text-align: left; vertical-align: top; }
+th { background: #f8f8f8; font-weight: 600; }
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eee; color: #666; font-size: 0.85rem; }
+.lia-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; margin-top: 1rem; }
+.lia-card { border: 1px solid #e0e0e0; border-radius: 0.5rem; padding: 0.75rem 1rem; background: #fafafa; }
+.lia-card h3 { margin-top: 0; font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<nav class="breadcrumb">
+  <a href="/">Home</a> /
+  <a href="/media-types/">Media Types</a> /
+  <a href="/uri-schemes/">URI Schemes</a> /
+  Licensing
+</nav>
+
+<header>
+  <h1>Licensing &amp; Legitimate-Interest Assessment</h1>
+  <p>Reference registry at <a href="https://lists.technehub.com/">lists.technehub.com</a>. The data artefacts on this site are derived from IANA's public protocol registries and are governed by <strong>Creative Commons CC0 1.0</strong>. Personal-name registrant data is redacted to deterministic opaque tokens; the lawful basis for any residual processing is documented below as a Legitimate-Interest Assessment under GDPR Art. 6(1)(f).</p>
+  <p>Source documents: <a href="/docs/LICENSING-AND-LIA.md">docs/LICENSING-AND-LIA.md</a> (long form) &middot; <a href="/docs/DATA-PROVENANCE.md">docs/DATA-PROVENANCE.md</a> (per-mirror provenance).</p>
+</header>
+
+<h2>1. Source of the data</h2>
+
+<p>The two reference mirrors are derived from the publicly accessible IANA registries at:</p>
+<ul>
+  <li><a href="https://www.iana.org/assignments/media-types/">iana.org/assignments/media-types/</a> (RFC 6838)</li>
+  <li><a href="https://www.iana.org/assignments/uri-schemes/">iana.org/assignments/uri-schemes/</a> (RFC 3986 / RFC 7595)</li>
+</ul>
+
+<h2>2. The IANA + IETF Joint Statement (2021-11-10) <small>- verbatim excerpt</small></h2>
+
+<blockquote>
+IANA and IETF intend that the Protocol Registries may be freely used by any party for any purpose. Both IANA and IETF believe that the Protocol Registries consist primarily of factual information that is unlikely to be protectable as a matter of copyright law. However, for additional clarity, and to avoid any potential confusion about applicable rights, both IANA and IETF desire to (a) dedicate any applicable copyright rights that they may own in the Protocol Registries to the public domain, and (b) license any copyright or related rights for which they are a licensee (with a right to sublicense) to the broadest extent that they are permitted to do so. Accordingly, both IANA and IETF affirm that any applicable rights that they may have in the Protocol Registries are subject to the Creative Commons CC0 1.0 dedication found at <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">creativecommons.org/publicdomain/zero/1.0/legalcode</a>.
+</blockquote>
+<blockquote>
+Disclaimer. While as of the date of this statement neither IANA nor IETF are aware of any third parties claiming intellectual property rights in the Protocol Registries, neither can guarantee that third parties will not do so. Further, the Protocol Registries are made available without any other sort of representation or warranty. The limitations and disclaimers found in the CC0 1.0 dedication are an integral part of this joint statement. For example, in no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, <strong>including data protection rights</strong>.
+</blockquote>
+
+<p>"Protocol Registries" in the Joint Statement covers exactly the structured data we mirror (media type registry, URI scheme registry, and the mirror's 7x7 ECF matrix). It does <em>not</em> cover the RFC documents or any third-party material those registries cite; we never ship RFC text.</p>
+
+<h2>3. Artefact-by-artefact licence table</h2>
+<table>
+<thead><tr><th>Artefact</th><th>Licence</th></tr></thead>
+<tbody>
+<tr><td><code>data/media-types/iana-media-types.json</code></td><td>CC0 1.0 (IANA Joint Statement)</td></tr>
+<tr><td><code>data/uri-schemes/iana-uri-schemes.json</code></td><td>CC0 1.0 (IANA Joint Statement)</td></tr>
+<tr><td><code>data/ecf-coordinates/coordinates.json</code></td><td>MIT (source repo <code>technehub-labs/dea-metaframework</code>)</td></tr>
+<tr><td><code>data/paths.tsv</code> + every <code>*.html</code> page</td><td>MIT (this repo's licence)</td></tr>
+<tr><td>Source code in <code>scripts/</code></td><td>MIT (this repo's licence)</td></tr>
+</tbody>
+</table>
+
+<h2>4. Personal-data hygiene + LIA</h2>
+
+<p>The IANA registries publish registrant contacts as personal names (typically in the form <code>First_Last</code>). CC0 grants a public-domain dedication for copyright; it does not cover data-protection rights, so the mirror ships a deterministic redaction of any <code>&lt;xref type="person"&gt;</code> data field.</p>
+
+<div class="lia-cards">
+  <div class="lia-card"><h3>Purpose</h3><p>Publication of a stable, machine-readable, identifier-anchored index of IANA's public protocol registries so that OpenDEA catalog systems can resolve canonical references (<code>application/json</code>, <code>https</code>) to a single canonical page.</p></div>
+  <div class="lia-card"><h3>Necessity</h3><p>Personal-name republication is NOT necessary for the legitimate interest. The contact name carries no operational value to a consumer resolving an identifier; removing it has no impact on the index's dereferencing, lookup, or reference-resolution value.</p></div>
+  <div class="lia-card"><h3>Balance</h3><p>The natural-person interest in not being publicly re-indexed outweighs the publisher's interest in presenting the contact name (which is informational, non-load-bearing). With the redaction in place, the residual processing is limited to publishing an opaque structural count per record, which does not constitute the processing of personal data.</p></div>
+</div>
+
+<h3>4.1 The redaction (technical control)</h3>
+<p>The parser substitutes every <code>&lt;xref type="person"&gt;</code> <code>data</code> with a deterministic opaque token:</p>
+<pre>redacted:person:&lt;6-char-prefix-of-sha256-of(name+salt)&gt;</pre>
+<p>where the salt is the literal string <code>openDEA-catalog-refs-v1</code>. Properties:</p>
+<ul>
+  <li><strong>Deterministic.</strong> Same input name &rarr; same token. Lets consumers detect cross-record appearances and detect snapshot drift without ever seeing the personal name.</li>
+  <li><strong>Reversible by design.</strong> The salt is public. The goal is to remove the mirror's directory function (flip the legal posture), not to defeat forensic adversaries who already have the candidate list from IANA.</li>
+  <li><strong>Structural signal preserved.</strong> Every record carries <code>references_count_by_type</code>, so the count and distribution of registrant contacts stays visible to consumers.</li>
+  <li><strong>Verifiable.</strong> <code>scripts/validate-data.py::validate_person_xref_redaction()</code> rejects any record whose <code>references[].type = "person"</code> carries a <code>data</code> value other than the redaction token format. The CI gate fails if any code path re-introduces a raw name.</li>
+</ul>
+
+<h3>4.2 Exposure footprint (2026-10-16 snapshot, post-redaction)</h3>
+<table>
+<thead><tr><th>Registry</th><th>Records with at least one <code>person</code> xref</th><th>Total redaction tokens</th><th>Distinct token values</th></tr></thead>
+<tbody>
+<tr><td><code>media-types</code></td><td>1,700 of 2,366 (71.9%)</td><td>2,016</td><td>unique per registrant</td></tr>
+<tr><td><code>uri-schemes-1</code></td><td>315 of 451 (69.8%)</td><td>344</td><td>unique per registrant</td></tr>
+</tbody>
+</table>
+
+<p>Zero raw personal names remain in the JSON mirror files as of the 2026-10-20 rebuild.</p>
+
+<h2>5. Operational notes</h2>
+
+<ul>
+  <li><strong>Authoritative source.</strong> The per-record HTML page on this mirror always links to the IANA registry page as the canonical source for the identity behind any redacted token. Registrants seeking to exercise GDPR / UK-GDPR / similar rights over their contact data should contact the original registration authority (typically the IETF or the standards body that registered the value); IANA itself acknowledges that "the rights that other persons may have in the work" are unaffected by CC0.</li>
+  <li><strong>Salt and reversibility.</strong> The salt <code>openDEA-catalog-refs-v1</code> is published. The redaction is a <em>soft</em> (transparent, hashed, structural) redaction; it is not cryptographic irreversibility. The threat model is "stop the mirror from being an indexing vector for contact spam or marketing tooling", which it does.</li>
+  <li><strong>Future changes.</strong> Any future change to the redaction token format (e.g. a longer prefix, or a different hash) must update the validator pattern and the documentation here. The validator is the gate.</li>
+</ul>
+
+<h2>6. Long-form reference</h2>
+
+<p>The structured, machine-readable form of this document is <a href="/docs/LICENSING-AND-LIA.md"><code>docs/LICENSING-AND-LIA.md</code></a> in the source repo. That document is the authoritative record; this page is the human surface.</p>
+
+<footer>
+<p>Hosted at <a href="https://lists.technehub.com/">lists.technehub.com</a>. Source repo: <a href="https://github.com/technehub-labs/dea-catalog-references">technehub-labs/dea-catalog-references</a>. License: MIT (this repo); CC0 1.0 (the data); see the table in &sect;3 for per-artefact attribution.</p>
+<p>This document is drafted in good faith by the maintainer of the mirror; it is not legal advice. If any aspect matters to your compliance posture, an EU/UK qualified lawyer or DPO should review against your specific use-case.</p>
+</footer>
+
+</body>
+</html>

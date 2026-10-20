@@ -33,6 +33,12 @@ The pre-Slice-1 mirror conflated the subtype suffix with the canonical media typ
 
 The pre-Slice-1 mirror also truncated 2 media-type names where IANA's `<name>` element nested an `<xref>` (e.g. `vnd.geo+json (OBSOLETED by rfc7946 in favor of application/geo+json)`); xref expansion now recovers the full text.
 
+### Personal-data hygiene (applied at parse time)
+
+Every `<xref type="person">` `data` value in this mirror is replaced with a deterministic opaque token of the form `redacted:person:<6-char-prefix-of-sha256-of(data+salt)>`, where the salt is the constant string `openDEA-catalog-refs-v1` (documented in `scripts/parse-iana.py` and `docs/LICENSING-AND-LIA.md`). Same input name => same token; the `references_count_by_type` aggregate stat on every record preserves the structural signal (the count and distribution of registrant contacts) without naming anyone. The validator (`scripts/validate-data.py::validate_person_xref_redaction`) makes this a regression-grade invariant: any record whose `references[].type = "person"` carries a `data` value other than the redaction token format blocks the CI gate with rc=1.
+
+Why this is done is documented in the long-form `docs/LICENSING-AND-LIA.md`; the short-form human surface is `licensing.html`. The exposed surface area after redaction: 2,016 + 344 = 2,360 redaction tokens across both mirrors; zero raw personal names remain in the JSON mirror files as of the 2026-10-20 rebuild.
+
 ## IANA URI schemes (`data/uri-schemes/iana-uri-schemes.json`)
 
 - **Source URL**: <https://www.iana.org/assignments/uri-schemes/uri-schemes.xml>

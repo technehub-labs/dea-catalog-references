@@ -6,6 +6,7 @@
 <title>OpenDEA Reference Registry</title>
 <meta name="description" content="OpenDEA reference registry: IANA media types (RFC 6838), IANA URI schemes (RFC 3986 / RFC 7595), and the ECF 7x7 coordinate enumeration.">
 <link rel="alternate" type="application/json" href="/data/index.json">
+<link rel="license" href="/licensing.html">
 <style>
   :root { color-scheme: light dark; }
   body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; max-width: 60rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
@@ -40,12 +41,21 @@
 <a href="/ecf/">Enterprise Concept Framework (ECF)</a>
 <small>7 x 7 coordinate enumeration from <code>technehub-labs/dea-metaframework/framework/matrix.md</code>. 49 coordinates.</small>
 </li>
+<li>
+<a href="/dea/">Path Resolver (/dea/&lt;path&gt;)</a>
+<small>Static dereferencing layer for canonical references. 2,817 paths enumerated in <a href="/data/paths.tsv"><code>data/paths.tsv</code></a>; redirects via <code>&lt;meta http-equiv=refresh&gt;</code>.</small>
+</li>
+<li>
+<a href="/licensing.html">Licensing &amp; LIA</a>
+<small>CC0 1.0 dataset (per the IANA + IETF Joint Statement of 2021-11-10) + the documented Legitimate-Interest Assessment for the personal-name redaction step.</small>
+</li>
 </ul>
 </nav>
 
 <footer>
 <p>Snapshot date: 2026-10-16. Build: <code>scripts/build.sh</code>. Hash audit: <a href="/data/SHA256SUMS"><code>data/SHA256SUMS</code></a>.</p>
 <p>Hosted at <a href="https://lists.technehub.com/">lists.technehub.com</a>. Source: <a href="https://github.com/technehub-labs/dea-catalog-references">github.com/technehub-labs/dea-catalog-references</a>. License: MIT.</p>
+<p>Datasets under <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">CC0 1.0</a> per the <a href="https://www.iana.org/help/licensing-terms">IANA Joint Statement</a>; full breakdown and the <a href="/licensing.html">LIA</a>.</p>
 <p>Healthcheck: <a href="/healthz"><code>/healthz</code></a>.</p>
 </footer>
 </body>
