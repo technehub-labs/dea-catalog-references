@@ -176,6 +176,61 @@ def validate_path_b1() -> None:
     ok(f"every paths.tsv row has a shim with a valid target ({len(rows)} checked)")
 
 
+
+_PERSON_TOKEN = re.compile(r'^redacted:person:[0-9a-f]{6}$')
+_IANA_NAME = re.compile(r'[A-Z][a-z]+_[A-Z][a-z]+')
+
+
+def validate_person_xref_redaction() -> None:
+    """Every <xref type="person"> data is a deterministic redaction token.
+
+    Rationale (docs/LICENSING-AND-LIA.md): the IANA registry publishes
+    registrant contacts as personal names. To flip the legal posture from
+    "publishes a directory of personal names" to "publishes aggregate
+    contact statistics", the parser substitutes each person-name with a
+    deterministic opaque token
+    `redacted:person:<6-char-prefix-of-sha256-of(name+salt)>`. Same name =>
+    same token; salt is constant + documented.
+
+    This assertion makes the redaction a regression-grade invariant: any
+    future code path that re-introduces a raw name surfaces here.
+    """
+    paths = (
+        "data/media-types/iana-media-types.json",
+        "data/uri-schemes/iana-uri-schemes.json",
+    )
+    suspicious: list[tuple[str, str, str]] = []
+    missing_count_field: list[str] = []
+    person_count_seen = 0
+    for rel in paths:
+        d = json.loads((ROOT / rel).read_text())
+        for r in d.get("records", []):
+            counts = r.get("references_count_by_type") or {}
+            n_person = 0
+            for x in r.get("references") or []:
+                if x.get("type") != "person":
+                    continue
+                n_person += 1
+                data = x.get("data", "")
+                if _PERSON_TOKEN.match(data):
+                    continue
+                if _IANA_NAME.search(data):
+                    suspicious.append((rel, r.get("name", "?"), data))
+                else:
+                    suspicious.append((rel, r.get("name", "?"),
+                                       f"unexpected format: {data!r}"))
+            if n_person > 0 and "person" not in counts:
+                missing_count_field.append(f"{rel} {r.get('name','?')}")
+            person_count_seen += n_person
+    if suspicious:
+        fail(f"person xrefs not properly redacted: {suspicious[:5]}")
+    if missing_count_field:
+        fail(f"records with person xrefs missing references_count_by_type.person: "
+             f"{missing_count_field[:5]}")
+    ok(f"person xrefs redacted to opaque tokens ({person_count_seen} tokens across"
+       f" both mirrors)")
+
+
 def validate_sha256sums() -> None:
     sum_path = ROOT / "data/SHA256SUMS"
     if not sum_path.exists():
@@ -204,6 +259,7 @@ def main() -> None:
     validate_uri_schemes()
     validate_ecf()
     validate_path_b1()
+    validate_person_xref_redaction()
     validate_sha256sums()
     print("All assertions passed.")
 
