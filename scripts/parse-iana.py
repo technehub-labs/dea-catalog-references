@@ -23,6 +23,31 @@ from pathlib import Path
 NS = {"iana": "http://www.iana.org/assignments"}
 ROOT = Path(__file__).resolve().parent.parent
 
+
+# Personal-data hygiene: redact xref of type=person to a deterministic opaque
+# token. The token is `redacted:person:<6-char-prefix-of-sha256-of(data+salt)>`,
+# where the salt is constant and documented in docs/LICENSING-AND-LIA.md and
+# docs/DATA-PROVENANCE.md. Same input -> same token (deterministic), so consumers
+# can still count + dedupe contact slots across records. This is a SOFT
+# redaction (the salt is public) intended to flip the legal posture from
+# "publishes a directory of personal names" to "publishes aggregate contact
+# statistics"; the canonical source for the actual name is IANA on the
+# registry page (every per-record HTML page links back).
+_REDACTION_SALT = "openDEA-catalog-refs-v1"
+
+
+def redact_xref(xref_el) -> dict:
+    """Serialize an <xref> element, redacting any personal-name data."""
+    t = xref_el.get("type")
+    d = xref_el.get("data", "")
+    if t == "person" and d:
+        h = __import__("hashlib").sha256((_REDACTION_SALT + d).encode("utf-8")).hexdigest()
+        return {"type": t, "data": f"redacted:person:{h[:6]}"}
+    if t and d:
+        return {"type": t, "data": d.strip()}
+    return None
+
+
 # Annotation patterns: either " - DEPRECATED|OBSOLETE|OBSOLETED ..." or
 # " (DEPRECATED|OBSOLETE|OBSOLETED ...)".
 _ANNOT_DASH = re.compile(
@@ -120,13 +145,15 @@ def parse_media_types() -> list[dict]:
             if tmpl:
                 rec["template"] = tmpl
             refs = []
+            counts = {}
             for xref in record_el.findall("iana:xref", NS):
-                t = xref.get('type')
-                d = xref.get('data')
-                if t and d:
-                    refs.append({"type": t, "data": d.strip()})
+                item = redact_xref(xref)
+                if item is not None:
+                    refs.append(item)
+                    counts[item["type"]] = counts.get(item["type"], 0) + 1
             if refs:
                 rec["references"] = refs
+                rec["references_count_by_type"] = dict(sorted(counts.items()))
             records.append(rec)
 
     records.sort(key=lambda r: r["name"].lower())
@@ -171,13 +198,15 @@ def parse_uri_schemes() -> list[dict]:
             if desc:
                 rec["description"] = desc
         refs = []
+        counts = {}
         for xref in record_el.findall("iana:xref", NS):
-            t = xref.get('type')
-            d = xref.get('data')
-            if t and d:
-                refs.append({"type": t, "data": d.strip()})
+            item = redact_xref(xref)
+            if item is not None:
+                refs.append(item)
+                counts[item["type"]] = counts.get(item["type"], 0) + 1
         if refs:
             rec["references"] = refs
+            rec["references_count_by_type"] = dict(sorted(counts.items()))
         records.append(rec)
 
     # Dedup by case-insensitive name (last-wins); preserves IANA-listed case.
