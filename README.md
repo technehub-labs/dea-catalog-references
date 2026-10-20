@@ -16,7 +16,7 @@ The mirrors are deterministic, hash-audited, and reproducible from the source XM
 
 - **Not a substitute for the authoritative registries.** IANA is the canonical source. This mirror is for static lookups and offline-friendly consumption; if IANA disagrees with this mirror, IANA wins.
 - **Not an OpenDEA catalog entry repository.** Per the methodology-first rule on `technehub-labs/dea-catalog-*` repos, catalog entity entries (PC/PG/BP/L4+ records) are gated on a CR (e.g. CR-DEA-REF-01). This repo does not carry such entries in this slice.
-- **Not a dereferencing API.** Path A first cut is a static mirror via GitHub Pages. Dynamic dereferencing (`/dea/{path}` lookups) lands as Path B, layered on once Path A is stable.
+- **Not a dereferencing API.** Path A first cut is a static mirror via GitHub Pages. Dynamic dereferencing (template `https://lists.technehub.com/dea/{path}` lookups) lands as Path B, layered on once Path A is stable.
 
 ## Status
 
@@ -121,13 +121,13 @@ This catalog sits **below** the L1 OpenDEA catalogs and **adjacent to** the ECF 
 - Landing: <https://lists.technehub.com/>
 - Healthcheck: <https://lists.technehub.com/healthz>
 - Media types index: <https://lists.technehub.com/media-types/>
-- Media types per-type: <https://lists.technehub.com/media-types/by-type/{type}>
-- Media type per-record: <https://lists.technehub.com/media-types/{type}/{subtype}> (e.g. `/media-types/application/json`)
+- Media types per-type: `https://lists.technehub.com/media-types/by-type/{type}` (where `{type}` is the IANA top-level type: `application`, `audio`, `font`, `haptics`, `image`, `message`, `model`, `multipart`, `text`, `video`)
+- Media type per-record: `https://lists.technehub.com/media-types/{type}/{subtype}` (e.g. `/media-types/application/json`)
 - URI schemes index: <https://lists.technehub.com/uri-schemes/>
-- URI scheme per-record: <https://lists.technehub.com/uri-schemes/{scheme}> (e.g. `/uri-schemes/https`)
+- URI scheme per-record: `https://lists.technehub.com/uri-schemes/{scheme}` (e.g. `/uri-schemes/https`)
 - ECF cells index: <https://lists.technehub.com/ecf/>
-- Path resolver: <https://lists.technehub.com/dea/{path}> (e.g. `/dea/application/json`, `/dea/https`; meta-refreshes to the per-record page in 0 ms)
+- Path resolver: `https://lists.technehub.com/dea/{path}` (e.g. `/dea/application/json`, `/dea/https`; meta-refreshes to the per-record page in 0 ms)
 - Path catalogue (TSV): <https://lists.technehub.com/data/paths.tsv> (one row per canonical ref; machine surface for the resolver)
 - Path B-1 master: <https://lists.technehub.com/dea/> (explains the resolver + links to a few examples)
 - Licensing &amp; LIA: <https://lists.technehub.com/licensing.html> (CC0 1.0 on the data + documented Legitimate-Interest Assessment under GDPR Art. 6(1)(f))
-- Per-cell pages: <https://lists.technehub.com/ecf/{domain-token}/{stage-token}.html>
+- Per-cell pages: `https://lists.technehub.com/ecf/{domain-token}/{stage-token}.html`
