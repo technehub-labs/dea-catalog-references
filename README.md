@@ -21,9 +21,10 @@ The mirrors are deterministic, hash-audited, and reproducible from the source XM
 ## Status
 
 - **Slice 0 (2026-10-16, sealed PR #5)**: scaffold + data + static landing pages (list-level).
-- **Slice 1 (this PR)**: per-record landing pages. The mirror's data model is corrected to canonical `name = type/subtype` (was: bare subtype suffix; lost 61 records), annotations (`OBSOLETE` / `OBSOLETED` / `DEPRECATED`) are split into their own field, `<xref>` text is fully expanded in names and descriptions, the `template` field is now populated, and 17 records carry an explicit `superseded_by` link. Result: 2,366 media-type per-record pages + 10 per-type listings + 451 URI-scheme per-record pages, served extensionless under `/media-types/<type>/<subtype>` and `/uri-schemes/<scheme>`. Also: CI gate upgraded from JSON-shape-only to a real invariant suite (`scripts/validate-data.py`).
-- **Slice 2 (deferred)**: AAAA records for `lists.technehub.com` (tracked on Kanboard card #411, deferred).
-- **Slice 3 (deferred)**: Path B dereferencing API (Cloudflare Workers + R2 + NS migration; tracked on parent card #377, deferred until Path A is stable/table).
+- **Slice 1 (PR #1, sealed 2026-10-19)**: per-record landing pages. The mirror's data model is corrected to canonical `name = type/subtype` (was: bare subtype suffix; lost 61 records), annotations (`OBSOLETE` / `OBSOLETED` / `DEPRECATED`) are split into their own field, `<xref>` text is fully expanded in names and descriptions, the `template` field is now populated, and 17 records carry an explicit `superseded_by` link. Result: 2,366 media-type per-record pages + 10 per-type listings + 451 URI-scheme per-record pages, served extensionless under `/media-types/<type>/<subtype>` and `/uri-schemes/<scheme>`. Also: CI gate upgraded from JSON-shape-only to a real invariant suite (`scripts/validate-data.py`).
+- **Slice 2 (this PR, Path B-1)**: the dereferencing layer at `/dea/<path>`. 2,817 redirect shims (one per canonical reference identifier), backed by a machine-readable `data/paths.tsv` (2,817 rows of `path<TAB>target`). Each shim `<meta http-equiv=refresh>`-es to the corresponding per-record HTML in 0 ms, with a `<link rel=canonical>` so crawlers treat the target as authoritative. Zero ops, no NS migration; Path B-2 (Cloudflare Workers + R2) deferred until the CF plan is ready.
+- **Slice 3 (deferred)**: AAAA records for `lists.technehub.com` (tracked on Kanboard card #411, deferred).
+- **Slice 4 (deferred)**: Path B-2 dereferencing API (Cloudflare Workers + R2 + NS migration; tracked on parent card #377, deferred until Path B-1 is in use).
 
 ## Entity Definition table
 
@@ -70,7 +71,8 @@ This catalog sits **below** the L1 OpenDEA catalogs and **adjacent to** the ECF 
 | |  |  +- iana-uri-schemes.json    Mirror of IANA URI Schemes registry (451 records).
 | |  +- ecf-coordinates/
 | |  |  +- coordinates.json         49-cell ECF matrix from dea-metaframework.
-| |  +- SHA256SUMS                  Audit hashes for the three JSON files.
+| |  +- paths.tsv                   Path catalogue: 2,817 rows of `path<TAB>target` for the /dea/ resolver surface (Path B-1).
+| |  +- SHA256SUMS                  Audit hashes for the four data files.
 | +- media-types/
 | |  +- index.html                  List page of all 2,366 media types, grouped by top-level type.
 | |  +- by-type/<type>.html         Per-type listing (10 files: application, audio, font, haptics, image, message, model, multipart, text, video).
@@ -81,12 +83,17 @@ This catalog sits **below** the L1 OpenDEA catalogs and **adjacent to** the ECF 
 | +- ecf/
 | |  +- index.html                  List page of all 49 ECF cells.
 | |  +- <domain-token>/<stage-token>.html  One per cell (49 files).
+| +- dea/
+| |  +- index.html                  Master page for the /dea/ resolver surface (lists 4 example paths + the machine catalogue link).
+| |  +- <type>/<subtype>.html       Redirect shim for media-type canonical references (2,366 files; extensionless URL: /dea/application/json -> /media-types/application/json).
+| |  +- <scheme>.html               Redirect shim for URI-scheme canonical references (451 files; extensionless URL: /dea/https -> /uri-schemes/https).
 | +- scripts/
 | |  +- fetch-iana.sh               Re-fetch IANA XML sources.
 | |  +- build.sh                    Generate JSON mirrors + static landing pages + validate.
 | |  +- parse-iana.py               Parse IANA XML to JSON (canonical name, xref expansion, annotation split).
 | |  +- parse-ecf.py                Extract ECF matrix from dea-metaframework matrix.md.
-| |  +- build-html.py               Generate per-record + index landing pages from JSON mirrors.
+| |  +- _paths.py                  Generator + validator helpers for the /dea/<path> redirect surface (Path B-1).
+| |  +- build-html.py               Generate per-record + index landing pages + /dea/ redirect shims + paths.tsv from JSON mirrors.
 | |  +- validate-data.py            Assert data invariants + per-record page coverage + SHA256SUMS match.
 | +- docs/
 | |  +- FOUNDATIONS.md              Methodology-first tenets + decision-points register.
@@ -102,7 +109,8 @@ This catalog sits **below** the L1 OpenDEA catalogs and **adjacent to** the ECF 
 | Slice | Date | Change | Carrier |
 |---|---|---|---|
 | Slice 0 | 2026-10-16 | Scaffold + data + list-level landing pages | Kanban card #377 |
-| Slice 1 | 2026-10-20 | Per-record landing pages + IANA data model correctness fix (canonical `name`, annotation split, xref expansion, template populated, superseded_by link). 2,366 + 451 + 49 + 10 + 1 + 1 = 2,878 HTML files. | Kanban card #524 (TBD) |
+| Slice 1 | 2026-10-19 | Per-record landing pages + IANA data model correctness fix (canonical `name`, annotation split, xref expansion, template populated, superseded_by link). 2,366 + 451 + 49 + 10 + 1 + 1 = 2,878 HTML files. | Kanban card #524 |
+| Slice 2 (Path B-1) | 2026-10-20 | Static `/dea/<path>` redirect surface (2,817 shims + `data/paths.tsv` + 1 master `/dea/` index page + validator gate). Zero ops, no NS migration. | Kanban card #525 |
 
 ## Public surface
 
@@ -114,4 +122,7 @@ This catalog sits **below** the L1 OpenDEA catalogs and **adjacent to** the ECF 
 - URI schemes index: <https://lists.technehub.com/uri-schemes/>
 - URI scheme per-record: <https://lists.technehub.com/uri-schemes/{scheme}> (e.g. `/uri-schemes/https`)
 - ECF cells index: <https://lists.technehub.com/ecf/>
+- Path resolver: <https://lists.technehub.com/dea/{path}> (e.g. `/dea/application/json`, `/dea/https`; meta-refreshes to the per-record page in 0 ms)
+- Path catalogue (TSV): <https://lists.technehub.com/data/paths.tsv> (one row per canonical ref; machine surface for the resolver)
+- Path B-1 master: <https://lists.technehub.com/dea/> (explains the resolver + links to a few examples)
 - Per-cell pages: <https://lists.technehub.com/ecf/{domain-token}/{stage-token}.html>

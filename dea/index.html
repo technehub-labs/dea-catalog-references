@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenDEA /dea/{path} resolver</title>
+<meta name="description" content="Reference-resolver surface for OpenDEA canonical identifiers (RFC 6838 media types, RFC 3986 URI schemes). Path B-1: a static redirect layer backed by GitHub Pages; zero operations, no NS migration.">
+<style>
+:root { color-scheme: light dark; }
+body { font-family: ui-sans-serif, system-ui, sans-serif; max-width: 56rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+nav.breadcrumb { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+table { border-collapse: collapse; width: 100%; margin-top: 1rem; font-size: 0.85rem; }
+th,td { padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; text-align: left; vertical-align: top; }
+th { background: #f8f8f8; font-weight: 600; }
+code { background: #f4f4f4; padding: 0.1em 0.3em; border-radius: 0.2em; font-size: 0.95em; }
+footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #eee; color: #666; font-size: 0.85rem; }
+</style></head><body>
+<nav class="breadcrumb"><a href="/">Home</a> / dea</nav>
+<header><h1>OpenDEA /dea/&lt;path&gt; resolver</h1>
+<p>This directory is the static redirect surface for OpenDEA canonical identifiers (RFC 6838 media types, RFC 3986 URI schemes). Each path resolves to the corresponding per-record page on <a href="https://lists.technehub.com/">lists.technehub.com</a> via a zero-delay <code>&lt;meta http-equiv="refresh"&gt;</code> redirect, plus a <code>&lt;link rel="canonical"&gt;</code> so search engines treat the target as authoritative.</p></header>
+
+<h2>Path catalogue</h2>
+<table><thead><tr><th>Path</th><th>Resolves to</th></tr></thead><tbody>
+<tr><td><code>application/json</code></td><td><a href="/media-types/application/json"><code>/media-types/application/json</code></a></td></tr>
+<tr><td><code>https</code></td><td><a href="/uri-schemes/https"><code>/uri-schemes/https</code></a></td></tr>
+<tr><td><code>application/xml</code></td><td><a href="/media-types/application/xml"><code>/media-types/application/xml</code></a></td></tr>
+<tr><td><code>dea</code></td><td><a href="/uri-schemes/dea"><code>/uri-schemes/dea</code></a> <small>(when the IANA-registered <code>dea://</code> scheme lands; tracked on card #361)</small></td></tr>
+</tbody></table>
+
+<h2>Machine-readable catalogue</h2>
+<p>The full path catalogue is published as a TSV file: <a href="/data/paths.tsv"><code>data/paths.tsv</code></a> &mdash; one <code>&lt;tab&gt;</code>-separated row per path, two columns: <code>path</code> and <code>target</code>. Updated every build via <code>scripts/build-html.py</code>.</p>
+
+<footer>
+<p>Hosted at <a href="https://lists.technehub.com/">lists.technehub.com</a>. License: MIT.</p>
+</footer></body></html>

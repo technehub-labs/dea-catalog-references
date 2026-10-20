@@ -402,6 +402,17 @@ def main() -> None:
         total_us_records += 1
     print(f"wrote {total_us_records} per-record URI-scheme pages")
 
+    # ---- Path B-1: /dea/<path> redirect surface ----
+    import sys as _sys
+    _sys.path.insert(0, str((ROOT / "scripts").resolve()))
+    from _paths import load_mirror_rows, write_paths_tsv, emit_shim
+    rows = load_mirror_rows()
+    n_tsv = write_paths_tsv(rows, ROOT / "data/paths.tsv")
+    n_shim = 0
+    for r in rows:
+        emit_shim(r); n_shim += 1
+    print(f"wrote {n_tsv} paths.tsv rows; {n_shim} /dea/<path> redirect shims")
+
     # ECF cells (unchanged)
     coords = json.loads((ROOT / "data/ecf-coordinates/coordinates.json").read_text())
     for c in coords["coordinates"]:

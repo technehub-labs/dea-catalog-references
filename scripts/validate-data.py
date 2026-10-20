@@ -134,6 +134,48 @@ def validate_ecf() -> None:
     ok(f"ecf cells count = {len(coords)}")
 
 
+
+def validate_path_b1() -> None:
+    """Path B-1: /dea/<path> redirect surface (2,817 shims + paths.tsv).
+
+    Asserts every row in data/paths.tsv has:
+    - a corresponding redirect shim at dea/<path>.html
+    - a target HTML file present on disk
+    - the shim body satisfies the meta-refresh shape
+    """
+    import sys as _sys
+    _sys.path.insert(0, str((ROOT / "scripts").resolve()))
+    from _paths import load_paths_tsv, shim_path_for, target_html_exists  # type: ignore
+
+    tsv = ROOT / "data/paths.tsv"
+    if not tsv.exists():
+        fail("data/paths.tsv missing")
+    rows = load_paths_tsv(tsv)
+    if not rows:
+        fail("data/paths.tsv is empty")
+    ok(f"paths.tsv: {len(rows)} rows")
+
+    missing_shim = []
+    missing_target = []
+    malformed_shim = []
+    for row in rows:
+        sp = shim_path_for(row.path)
+        if not sp.exists():
+            missing_shim.append(row.path); continue
+        body = sp.read_text()
+        if 'http-equiv="refresh"' not in body or 'lists.technehub.com' + row.target not in body:
+            malformed_shim.append(row.path); continue
+        if not target_html_exists(row.target):
+            missing_target.append((row.path, row.target))
+    if missing_shim:
+        fail(f"missing redirect shims ({len(missing_shim)}): {missing_shim[:5]}")
+    if missing_target:
+        fail(f"shims point to missing targets ({len(missing_target)}): {missing_target[:5]}")
+    if malformed_shim:
+        fail(f"shims have wrong redirect target ({len(malformed_shim)}): {malformed_shim[:5]}")
+    ok(f"every paths.tsv row has a shim with a valid target ({len(rows)} checked)")
+
+
 def validate_sha256sums() -> None:
     sum_path = ROOT / "data/SHA256SUMS"
     if not sum_path.exists():
@@ -161,6 +203,7 @@ def main() -> None:
     validate_media_types()
     validate_uri_schemes()
     validate_ecf()
+    validate_path_b1()
     validate_sha256sums()
     print("All assertions passed.")
 

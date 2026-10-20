@@ -68,6 +68,19 @@ The pre-Slice-1 mirror truncated 12 URI-scheme descriptions where IANA's `<descr
 - **Reproducible via**: `scripts/fetch-iana.sh` (also fetches the matrix.md) + `scripts/parse-ecf.py`
 - **Audit hash**: see `data/SHA256SUMS` row 3
 
+
+
+## Path catalogue (`data/paths.tsv`)
+
+- **Source**: derived from `data/media-types/iana-media-types.json` + `data/uri-schemes/iana-uri-schemes.json` at every build (`scripts/_paths.py:load_mirror_rows()` + `write_paths_tsv()`).
+- **Schema**: TSV with two tab-separated columns per line:
+  - `path` -- the canonical reference identifier (e.g. `application/json`, `https`).
+  - `target` -- the per-record HTML URL on this site (e.g. `/media-types/application/json`).
+- **Row count**: 2,817 (2,366 media-type rows + 451 URI-scheme rows).
+- **Purpose**: machine surface for the `/dea/<path>` redirect layer; lets clients do a single GET+lookup to dereference a canonical identifier instead of fetching the 700KB JSON.
+- **Audit hash**: see `data/SHA256SUMS` row 4.
+- **Reproducible via**: `scripts/build-html.py` (writes both `data/paths.tsv` and the 2,817 `dea/<path>.html` redirect shims in one pass).
+
 ## Authority precedence
 
 If any of the mirrors disagrees with its upstream source, the upstream source wins and the mirror is regenerated. Manual edits to the JSON mirrors are forbidden; the build script regenerates them from the source.
